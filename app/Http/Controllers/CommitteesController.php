@@ -12,7 +12,7 @@ class CommitteesController extends Controller
     {
         $title = $request->input('title');
 
-        $title_check = DB::table('committees')->where(['title' => $title])->get();
+        $title_check = Committee::where(['title' => $title])->get();
 
         if (count($title_check) > 0) {
             echo 'There is already Exist Committee of ' . $title . ' .... Please Try Again';
