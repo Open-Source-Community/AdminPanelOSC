@@ -45,7 +45,7 @@ class ImagesController extends Controller
 
         $notes->update(['imageurl' => $imageurl]);
 
-        return redirect('/');
+        return view('showallimages');
     }
 
     public function delete($id)
@@ -55,6 +55,6 @@ class ImagesController extends Controller
 
         $notes->delete();
 
-        return redirect('/');
+        return view('showallimages');
     }
 }

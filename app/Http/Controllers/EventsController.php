@@ -50,7 +50,7 @@ class EventsController extends Controller
         $notes->update(['imageurl' => $imageurl]);
         $notes->update(['description' => $desc]);
 
-        return redirect('/');
+        return view('showallevents');
     }
 
     public function delete($id)
@@ -60,6 +60,6 @@ class EventsController extends Controller
 
         $notes->delete();
 
-        return redirect('/');
+        return view('showallevents');
     }
 }
