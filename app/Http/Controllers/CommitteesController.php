@@ -56,7 +56,7 @@ class CommitteesController extends Controller
         $notes->update(['imageurl' => $imageurl]);
         $notes->update(['description' => $desc]);
 
-        return redirect('/');
+        return redirect('/showallcommittees');
     }
 
     public function delete($id)
@@ -66,6 +66,6 @@ class CommitteesController extends Controller
 
         $notes->delete();
 
-        return redirect('/');
+        return redirect('/showallcommittees');
     }
 }
