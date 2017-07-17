@@ -20,4 +20,41 @@ class ImagesController extends Controller
 
         return back();
     }
+
+//    public function index()
+//    {
+//        $user_data = Image::all();
+//
+//        return view('showallcommittees', compact('user_data'));
+//    }
+//
+//    public function edit($id)
+//    {
+//        $notes = new Image;
+//        $notes = $notes->find($id);
+//
+//        return view('editcommittee', compact('notes'));
+//    }
+//
+//    public function update(Request $request, $id)
+//    {
+//        $imageurl = $request->input('imageurl');
+//
+//        $notes = new Image;
+//        $notes = $notes->find($id);
+//
+//        $notes->update(['imageurl' => $imageurl]);
+//
+//        return redirect('/');
+//    }
+//
+//    public function delete($id)
+//    {
+//        $notes = new Image;
+//        $notes = $notes->find($id);
+//
+//        $notes->delete();
+//
+//        return redirect('/');
+//    }
 }

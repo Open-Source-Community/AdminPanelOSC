@@ -9,22 +9,16 @@
                     <div class="panel-heading">Your Events</div>
                     <div class="panel-body">
 
-                        {{--@foreach($user_data as $event)--}}
-                        @for ($i = 0; $i < count($user_data); $i++)
+                        @foreach($user_data as $event)
                             <p>
-
-                                {{ $user_data[$i]->title }}
-                                <a href="events/{{ $user_data[$i]->id }}/delete" class="pull-right"
+                                {{ $event->title }}
+                                <a href="events/{{ $event->id }}/delete" class="pull-right"
                                    style="margin-left: 10px">Delete</a>
-                                <a href="events/{{ $user_data[$i]->id }}/edit" class="pull-right"> Edit </a>
-
+                                <a href="events/{{ $event->id }}/edit" class="pull-right"> Edit </a><br>
+                                <img src="{{ $event->imageurl }}">
+                            <hr>
                             </p>
-                        @endfor
-                        {{--@endforeach--}}
-
-                        {{--@for ($i = 0; $i < 10; $i++)--}}
-                        {{--<p>  The current value is {{ $i }} </p>--}}
-                        {{--@endfor--}}
+                        @endforeach
 
                     </div>
                 </div>
