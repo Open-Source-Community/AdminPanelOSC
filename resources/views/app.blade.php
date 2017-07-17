@@ -33,17 +33,16 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
+
                 <li class="active"><a href="/">Add Event</a></li>
+                <li class="active"><a href="/showallevents">Show All Events</a></li>
+
                 <li class="active"><a href="/addcommittee">Add Committee</a></li>
+                <li class="active"><a href="/showallcommittees">Show All Committees</a></li>
+
                 <li class="active"><a href="/addimagestocommittee">Add Images To Committee</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Show All<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/showallevents">Show All Events</a></li>
-                        <li><a href="/showallcommittees">Show All Committees</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://drive.google.com/drive/u/0/my-drive" target="_blank">To Upload Image URL</a></li>
+                <li class="active"><a href="/showallimages">Show All Images of Committee</a></li>
+
             </ul>
         </div>
     </div>
