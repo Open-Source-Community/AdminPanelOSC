@@ -13,13 +13,15 @@ class EventsController extends Controller
         $imageurl = $request->input('imageurl');
         $desc = $request->input('description');
 
-        $note = new Event;
-        $note->title = $title;
-        $note->imageurl = $imageurl;
-        $note->description = $desc;
-        $note->save();
+//        $note = new Event;
+//        $note->title = $title;
+//        $note->imageurl = $imageurl;
+//        $note->description = $desc;
+//        $note->save();
+//
+//        return back();
 
-        return back();
+        echo bcrypt($title);
     }
 
     public function index()
