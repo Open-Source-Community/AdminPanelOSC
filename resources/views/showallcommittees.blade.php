@@ -1,12 +1,12 @@
-@extends('app')
+@extends('layouts.app')
 
-@section('body')
-    <br><br><br><br>
+@section('content')
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Your Committees</div>
+                    <div class="panel-heading">Show All Committees</div>
+
                     <div class="panel-body">
 
                         @foreach($user_data as $committee)
