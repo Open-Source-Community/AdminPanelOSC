@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Committee;
 use Illuminate\Http\Request;
-use DB;
+use Auth;
 
 class CommitteesController extends Controller
 {
@@ -32,40 +32,55 @@ class CommitteesController extends Controller
 
     public function index()
     {
-        $user_data = Committee::all();
-
-        return view('showallcommittees', compact('user_data'));
+        if (Auth::user() != null) {
+            $user_data = Committee::all();
+            return view('showallcommittees', compact('user_data'));
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function edit($id)
     {
-        $notes = new Committee;
-        $notes = $notes->find($id);
+        if (Auth::user() != null) {
+            $notes = new Committee;
+            $notes = $notes->find($id);
 
-        return view('editcommittee', compact('notes'));
+            return view('editcommittee', compact('notes'));
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function update(Request $request, $id)
     {
-        $imageurl = $request->input('imageurl');
-        $desc = $request->input('description');
+        if (Auth::user() != null) {
+            $imageurl = $request->input('imageurl');
+            $desc = $request->input('description');
 
-        $notes = new Committee;
-        $notes = $notes->find($id);
+            $notes = new Committee;
+            $notes = $notes->find($id);
 
-        $notes->update(['imageurl' => $imageurl]);
-        $notes->update(['description' => $desc]);
+            $notes->update(['imageurl' => $imageurl]);
+            $notes->update(['description' => $desc]);
 
-        return redirect('/showallcommittees');
+            return redirect('/showallcommittees');
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function delete($id)
     {
-        $notes = new Committee;
-        $notes = $notes->find($id);
+        if (Auth::user() != null) {
+            $notes = new Committee;
+            $notes = $notes->find($id);
 
-        $notes->delete();
+            $notes->delete();
 
-        return redirect('/showallcommittees');
+            return redirect('/showallcommittees');
+        } else {
+            return redirect('/login');
+        }
     }
 }

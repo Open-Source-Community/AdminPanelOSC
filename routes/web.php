@@ -16,14 +16,14 @@ Route::get('/', function () {
 });
 
 Route::get('/addcommittee', function () {
-    if (!Auth::guest()) {
+    if (Auth::user() != null) {
         return view('addcommittee');
     } else {
         return redirect('/login');
     }
 });
 Route::get('/addimagestocommittee', function () {
-    if (!Auth::guest()) {
+    if (Auth::user() != null) {
         return view('addimagestocommittee');
     } else {
         return redirect('/login');

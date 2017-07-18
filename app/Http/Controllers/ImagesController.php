@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Image;
 use Illuminate\Http\Request;
+use Auth;
 
 class ImagesController extends Controller
 {
@@ -23,38 +24,54 @@ class ImagesController extends Controller
 
     public function index()
     {
-        $user_data = Image::all();
+        if (Auth::user() != null) {
+            $user_data = Image::all();
 
-        return view('showallimages', compact('user_data'));
+            return view('showallimages', compact('user_data'));
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function edit($id)
     {
-        $notes = new Image;
-        $notes = $notes->find($id);
+        if (Auth::user() != null) {
+            $notes = new Image;
+            $notes = $notes->find($id);
 
-        return view('editimage', compact('notes'));
+            return view('editimage', compact('notes'));
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function update(Request $request, $id)
     {
-        $imageurl = $request->input('imageurl');
+        if (Auth::user() != null) {
+            $imageurl = $request->input('imageurl');
 
-        $notes = new Image;
-        $notes = $notes->find($id);
+            $notes = new Image;
+            $notes = $notes->find($id);
 
-        $notes->update(['imageurl' => $imageurl]);
+            $notes->update(['imageurl' => $imageurl]);
 
-        return redirect('/showallimages');
+            return redirect('/showallimages');
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function delete($id)
     {
-        $notes = new Image;
-        $notes = $notes->find($id);
+        if (Auth::user() != null) {
+            $notes = new Image;
+            $notes = $notes->find($id);
 
-        $notes->delete();
+            $notes->delete();
 
-        return redirect('/showallimages');
+            return redirect('/showallimages');
+        } else {
+            return redirect('/login');
+        }
     }
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Event;
 use Illuminate\Http\Request;
+use Auth;
 
 class EventsController extends Controller
 {
@@ -13,55 +14,69 @@ class EventsController extends Controller
         $imageurl = $request->input('imageurl');
         $desc = $request->input('description');
 
-//        $note = new Event;
-//        $note->title = $title;
-//        $note->imageurl = $imageurl;
-//        $note->description = $desc;
-//        $note->save();
-//
-//        return back();
+        $note = new Event;
+        $note->title = $title;
+        $note->imageurl = $imageurl;
+        $note->description = $desc;
+        $note->save();
 
-        echo bcrypt($title);
+        return back();
     }
 
     public function index()
     {
-        $user_data = Event::all();
+        if (Auth::user() != null) {
+            $user_data = Event::all();
 
-        return view('showallevents', compact('user_data'));
+            return view('showallevents', compact('user_data'));
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function edit($id)
     {
-        $notes = new Event;
-        $notes = $notes->find($id);
+        if (Auth::user() != null) {
+            $notes = new Event;
+            $notes = $notes->find($id);
 
-        return view('editevent', compact('notes'));
+            return view('editevent', compact('notes'));
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function update(Request $request, $id)
     {
-        $title = $request->input('title');
-        $imageurl = $request->input('imageurl');
-        $desc = $request->input('description');
+        if (Auth::user() != null) {
+            $title = $request->input('title');
+            $imageurl = $request->input('imageurl');
+            $desc = $request->input('description');
 
-        $notes = new Event;
-        $notes = $notes->find($id);
+            $notes = new Event;
+            $notes = $notes->find($id);
 
-        $notes->update(['title' => $title]);
-        $notes->update(['imageurl' => $imageurl]);
-        $notes->update(['description' => $desc]);
+            $notes->update(['title' => $title]);
+            $notes->update(['imageurl' => $imageurl]);
+            $notes->update(['description' => $desc]);
 
-        return redirect('/showallevents');
+            return redirect('/showallevents');
+        } else {
+            return redirect('/login');
+        }
     }
 
     public function delete($id)
     {
-        $notes = new Event;
-        $notes = $notes->find($id);
+        if (Auth::user() != null) {
+            $notes = new Event;
+            $notes = $notes->find($id);
 
-        $notes->delete();
+            $notes->delete();
 
-        return redirect('/showallevents');
+            return redirect('/showallevents');
+        } else {
+            return redirect('/login');
+        }
     }
 }
