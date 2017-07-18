@@ -19,14 +19,14 @@ Route::get('/addcommittee', function () {
     if (!Auth::guest()) {
         return view('addcommittee');
     } else {
-        return back();
+        return redirect('/login');
     }
 });
 Route::get('/addimagestocommittee', function () {
     if (!Auth::guest()) {
         return view('addimagestocommittee');
     } else {
-        return back();
+        return redirect('/login');
     }
 });
 
