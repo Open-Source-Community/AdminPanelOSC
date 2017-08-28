@@ -35,6 +35,9 @@ Route::get('/showallcommittees', 'CommitteesController@index');
 Route::get('/showallimages', 'ImagesController@index');
 
 
+Route::post('/addadmin', 'HomeController@insert');
+Route::get('/CreateNewAdmin', 'HomeController@index2');
+
 Route::post('/addEvent', 'EventsController@insert');
 Route::post('/addCommittee', 'CommitteesController@insert');
 Route::post('/addimagestoCommittee', 'ImagesController@insert');
