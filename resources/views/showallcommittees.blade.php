@@ -15,7 +15,6 @@
                                 <a href="committees/{{ $committee->id }}/delete" class="pull-right"
                                    style="margin-left: 10px">Delete</a>
                                 <a href="committees/{{ $committee->id }}/edit" class="pull-right"> Edit </a><br>
-                                <img src="{{ $committee->imageurl }}">
                             <hr>
                             </p>
                         @endforeach
