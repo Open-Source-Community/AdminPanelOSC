@@ -20,11 +20,10 @@
                                         <option value="Linux">Linux</option>
                                         <option value="Blender">Blender</option>
                                         <option value="English Heroes">English Heroes</option>
-                                        <option value="Laravel">Laravel</option>
                                         <option value="Content Creators">Content Creators</option>
                                         <option value="Artwork">Artwork</option>
                                         <option value="Projects">Projects</option>
-                                        <option value="IT">IT</option>
+                                        <option value="Web">Web</option>
                                         <option value="Public Relations">Public Relations</option>
                                         <option value="Human Resources">Human Resources</option>
                                         <option value="Fundraising">Fundraising</option>
