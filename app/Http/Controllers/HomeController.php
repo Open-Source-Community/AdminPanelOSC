@@ -36,6 +36,12 @@ class HomeController extends Controller
         $email = $request->input('email');
         $password = $request->input('password');
 
+        $email_check = User::where(['email' => @$email])->get();
+        
+        if (count($email_check) > 0) {
+            echo 'There is already Exist User of ' . $email . ' .... Please Try Again';
+        } else {
+           
         $user = new User;
         $user->name = $name;
         $user->email = $email;
@@ -43,6 +49,7 @@ class HomeController extends Controller
         
         $user->save();
 
-        return back();
+            return back();
+        }
     }
 }
