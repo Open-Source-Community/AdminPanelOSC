@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Event;
+use App\Form;
 use Illuminate\Http\Request;
 use Auth;
 
@@ -29,6 +30,16 @@ class EventsController extends Controller
             $user_data = Event::all();
 
             return view('showallevents', compact('user_data'));
+        } else {
+            return redirect('/login');
+        }
+    }
+    public function index2()
+    {
+        if (Auth::user() != null) {
+            $users_data = Form::all();
+
+            return view('showallinterviews', compact('users_data'));
         } else {
             return redirect('/login');
         }

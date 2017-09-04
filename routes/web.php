@@ -33,6 +33,7 @@ Route::get('/addimagestocommittee', function () {
 Route::get('/showallevents', 'EventsController@index');
 Route::get('/showallcommittees', 'CommitteesController@index');
 Route::get('/showallimages', 'ImagesController@index');
+Route::get('/showallinterviews', 'EventsController@index2');
 
 
 Route::post('/addadmin', 'HomeController@insert');

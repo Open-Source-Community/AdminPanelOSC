@@ -12,6 +12,24 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
+    
+    <style>
+.ttt {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.t {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+</style>
+    
 </head>
 <body>
 <div id="app">
@@ -122,6 +140,11 @@
                             </ul>
                         </li>
 
+                        <li>
+                            <a href="/showallinterviews">
+                                Interviews
+                            </a>
+                            </li>
                     @endif
                 </ul>
             </div>
