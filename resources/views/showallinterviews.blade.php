@@ -36,7 +36,11 @@
      <td class="ttt">
                 {{ $user_details->year }}
             </td>
-        @if ($user_details->homepage_select_first==1)
+        @if ($user_details->homepage_select_first==0)
+            <td class="ttt">
+                Nothing
+            </td>
+        @elseif ($user_details->homepage_select_first==1)
             <td class="ttt">
                 Web
             </td>
@@ -83,7 +87,11 @@
             </td>
         @endif
       
-        @if ($user_details->homepage_select_second==1)
+        @if ($user_details->homepage_select_second==0)
+            <td class="ttt">
+                Nothing
+            </td>
+        @elseif ($user_details->homepage_select_second==1)
             <td class="ttt">
                 Web
             </td>
