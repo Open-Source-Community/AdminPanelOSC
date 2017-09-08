@@ -37,7 +37,57 @@ class EventsController extends Controller
     public function index2()
     {
         if (Auth::user() != null) {
-            $users_data = Form::all();
+            $users_data = Form::where(['day' => 'Saturday'])->get();
+
+            return view('showallinterviews', compact('users_data'));
+        } else {
+            return redirect('/login');
+        }
+    }
+    public function index3()
+    {
+        if (Auth::user() != null) {
+            $users_data = Form::where(['day' => 'Sunday'])->get();
+
+            return view('showallinterviews', compact('users_data'));
+        } else {
+            return redirect('/login');
+        }
+    }
+    public function index4()
+    {
+        if (Auth::user() != null) {
+            $users_data = Form::where(['day' => 'Monday'])->get();
+
+            return view('showallinterviews', compact('users_data'));
+        } else {
+            return redirect('/login');
+        }
+    }
+    public function index5()
+    {
+        if (Auth::user() != null) {
+            $users_data = Form::where(['day' => 'Tuesday'])->get();
+
+            return view('showallinterviews', compact('users_data'));
+        } else {
+            return redirect('/login');
+        }
+    }
+    public function index6()
+    {
+        if (Auth::user() != null) {
+            $users_data = Form::where(['day' => 'Wednesday'])->get();
+
+            return view('showallinterviews', compact('users_data'));
+        } else {
+            return redirect('/login');
+        }
+    }
+    public function index7()
+    {
+        if (Auth::user() != null) {
+            $users_data = Form::where(['day' => 'Thursday'])->get();
 
             return view('showallinterviews', compact('users_data'));
         } else {

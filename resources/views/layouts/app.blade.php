@@ -145,6 +145,45 @@ th, td {
                                 Interviews
                             </a>
                             </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false">
+                                Interviews <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="/showallinterviews_Saturday">
+                                        Saturday
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showallinterviews_Sunday">
+                                        Sunday
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showallinterviews_Monday">
+                                        Monday
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showallinterviews_Tuesday">
+                                        Tuesday
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showallinterviews_Wednesday">
+                                        Wednesday
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showallinterviews_Thursday">
+                                        Thursday
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                     @endif
                 </ul>
             </div>

@@ -33,7 +33,13 @@ Route::get('/addimagestocommittee', function () {
 Route::get('/showallevents', 'EventsController@index');
 Route::get('/showallcommittees', 'CommitteesController@index');
 Route::get('/showallimages', 'ImagesController@index');
-Route::get('/showallinterviews', 'EventsController@index2');
+
+Route::get('/showallinterviews_Saturday', 'EventsController@index2');
+Route::get('/showallinterviews_Sunday', 'EventsController@index3');
+Route::get('/showallinterviews_Monday', 'EventsController@index4');
+Route::get('/showallinterviews_Tuesday', 'EventsController@index5');
+Route::get('/showallinterviews_Wednesday', 'EventsController@index6');
+Route::get('/showallinterviews_Thursday', 'EventsController@index7');
 
 
 Route::post('/addadmin', 'HomeController@insert');
