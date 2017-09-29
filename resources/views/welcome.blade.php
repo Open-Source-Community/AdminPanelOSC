@@ -27,7 +27,7 @@
     <style>
         html, body {
             background-color: #fff;
-            color: #636b6f;
+            color: #FF0000;
             font-family: 'Raleway', sans-serif;
             font-weight: 100;
             height: 100vh;
@@ -63,7 +63,7 @@
         }
 
         .links > a {
-            color: #636b6f;
+            color: #FF0000;
             padding: 0 25px;
             font-size: 12px;
             font-weight: 600;
@@ -79,19 +79,9 @@
 </head>
 <body>
 <div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @if (Auth::check())
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ url('/login') }}">Login</a>
-            @endif
-        </div>
-    @endif
-
-    <div class="content">
+       <div class="content">
         <div class="title m-b-md">
-            Welcome Admin Panel OSC
+            Sorry, The slot you have picked is fully booked! Please choose another time for your interview.
         </div>
     </div>
 </div>

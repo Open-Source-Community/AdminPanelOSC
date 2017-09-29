@@ -121,6 +121,11 @@ th, td {
 
                             <ul class="dropdown-menu" role="menu">
                                 <li>
+                                    <a href="/CreateNewParticiple">
+                                        Create New Participle
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="/CreateNewAdmin">
                                         Create New Admin
                                     </a>
@@ -143,38 +148,48 @@ th, td {
                     <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-expanded="false">
-                                Interviews <span class="caret"></span>
+                                Workshops Interviews <span class="caret"></span>
                             </a>
 
                             <ul class="dropdown-menu" role="menu">
                                 <li>
-                                    <a href="/showallinterviews_Saturday">
+                                    <a href="/showallinterviewsworkshops_Saturday">
                                         Saturday
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/showallinterviews_Sunday">
+                                    <a href="/showallinterviewsworkshops_Sunday">
                                         Sunday
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/showallinterviews_Monday">
+                                    <a href="/showallinterviewsworkshops_Monday">
                                         Monday
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/showallinterviews_Tuesday">
+                                    <a href="/showallinterviewsworkshops_Tuesday">
                                         Tuesday
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/showallinterviews_Wednesday">
+                                    <a href="/showallinterviewsworkshops_Wednesday">
                                         Wednesday
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/showallinterviews_Thursday">
+                                    <a href="/showallinterviewsworkshops_Thursday">
                                         Thursday
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showallinterviewsworkshops_Saturday7/10/2017">
+                                        Saturday 7/10/2017
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showallinterviewsworkshops_Sunday8/10/2017">
+                                        Sunday 8/10/2017
                                     </a>
                                 </li>
                             </ul>
