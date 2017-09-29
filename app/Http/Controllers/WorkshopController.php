@@ -128,7 +128,7 @@ class WorkshopController extends Controller
         
         if ($day == $day1){
             if ($time == $time1){
-                if (count($Saturday_check1) > 5)
+                if (count($Saturday_check1) > 4)
                     return view('welcome');
                 else
                 {
@@ -149,7 +149,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Saturday_check2) > 5)
+                if (count($Saturday_check2) > 4)
                     return view('welcome');
                 else
                 {
@@ -170,7 +170,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time3){
-                if (count($Saturday_check3) > 5)
+                if (count($Saturday_check3) > 4)
                     return view('welcome');
                 else
                 {
@@ -191,7 +191,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time4){
-                if (count($Saturday_check4) > 5)
+                if (count($Saturday_check4) > 4)
                     return view('welcome');
                 else
                 {
@@ -212,7 +212,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time5){
-                if (count($Saturday_check5) > 5)
+                if (count($Saturday_check5) > 4)
                     return view('welcome');
                 else
                 {
@@ -233,7 +233,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time6){
-                if (count($Saturday_check6) > 5)
+                if (count($Saturday_check6) > 4)
                     return view('welcome');
                 else
                 {
@@ -254,7 +254,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time7){
-                if (count($Saturday_check7) > 5)
+                if (count($Saturday_check7) > 4)
                     return view('welcome');
                 else
                 {
