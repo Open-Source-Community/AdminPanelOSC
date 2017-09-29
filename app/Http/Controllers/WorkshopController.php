@@ -137,7 +137,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -158,7 +158,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -179,7 +179,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -200,7 +200,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -221,7 +221,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -242,7 +242,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -263,7 +263,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -286,7 +286,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -307,7 +307,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -328,7 +328,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -349,7 +349,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -370,7 +370,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -391,7 +391,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -412,7 +412,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -435,7 +435,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -456,7 +456,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -477,7 +477,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -498,7 +498,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -519,7 +519,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -540,7 +540,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -561,7 +561,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -584,7 +584,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -605,7 +605,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -626,7 +626,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -647,7 +647,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -668,7 +668,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -689,7 +689,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -710,7 +710,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -733,7 +733,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -754,7 +754,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -775,7 +775,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -796,7 +796,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -817,7 +817,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -838,7 +838,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -859,7 +859,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -882,7 +882,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -903,7 +903,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -924,7 +924,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -945,7 +945,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -966,7 +966,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -987,7 +987,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;
@@ -1008,7 +1008,7 @@ class WorkshopController extends Controller
                     $workshop->last_name = $last_name;
                     $workshop->email = $email;
                     $workshop->contact_no = $contact_no;
-                    $workshop->faculty = 'fcis';
+                    $workshop->faculty = 'cisAinShams';
                     $workshop->blenderTask = '';
                     $workshop->year = $year;
                     $workshop->homepage_select_workshop = $homepage_select_workshop;

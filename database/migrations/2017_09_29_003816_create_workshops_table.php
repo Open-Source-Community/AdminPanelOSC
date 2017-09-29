@@ -22,7 +22,7 @@ class CreateWorkshopsTable extends Migration
             $table->string('faculty');
             $table->string('year');
             $table->string('homepage_select_workshop');
-            $table->string('blenderTask')->nullable();
+            $table->text('blenderTask')->nullable();
             $table->string('day');
             $table->string('time');
             $table->timestamps();
