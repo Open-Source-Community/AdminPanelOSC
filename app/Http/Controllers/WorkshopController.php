@@ -128,7 +128,7 @@ class WorkshopController extends Controller
         
         if ($day == $day1){
             if ($time == $time1){
-                if (count($Saturday_check1) > 4)
+                if (count($Saturday_check1) > 3)
                     return view('welcome');
                 else
                 {
@@ -149,7 +149,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Saturday_check2) > 4)
+                if (count($Saturday_check2) > 3)
                     return view('welcome');
                 else
                 {
@@ -170,7 +170,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time3){
-                if (count($Saturday_check3) > 4)
+                if (count($Saturday_check3) > 3)
                     return view('welcome');
                 else
                 {
@@ -191,7 +191,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time4){
-                if (count($Saturday_check4) > 4)
+                if (count($Saturday_check4) > 3)
                     return view('welcome');
                 else
                 {
@@ -212,7 +212,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time5){
-                if (count($Saturday_check5) > 4)
+                if (count($Saturday_check5) > 3)
                     return view('welcome');
                 else
                 {
@@ -233,7 +233,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time6){
-                if (count($Saturday_check6) > 4)
+                if (count($Saturday_check6) > 3)
                     return view('welcome');
                 else
                 {
@@ -254,7 +254,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time7){
-                if (count($Saturday_check7) > 4)
+                if (count($Saturday_check7) > 3)
                     return view('welcome');
                 else
                 {
@@ -277,7 +277,7 @@ class WorkshopController extends Controller
         }
         elseif ($day == $day2){
             if ($time == $time1){
-                if (count($Sunday_check1) > 5)
+                if (count($Sunday_check1) > 3)
                     return view('welcome');
                 else
                 {
@@ -298,7 +298,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Sunday_check2) > 5)
+                if (count($Sunday_check2) > 3)
                     return view('welcome');
                 else
                 {
@@ -319,7 +319,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time3){
-                if (count($Sunday_check3) > 5)
+                if (count($Sunday_check3) > 3)
                     return view('welcome');
                 else
                 {
@@ -340,7 +340,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time4){
-                if (count($Sunday_check4) > 5)
+                if (count($Sunday_check4) > 3)
                     return view('welcome');
                 else
                 {
@@ -361,7 +361,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time5){
-                if (count($Sunday_check5) > 5)
+                if (count($Sunday_check5) > 3)
                     return view('welcome');
                 else
                 {
@@ -382,7 +382,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time6){
-                if (count($Sunday_check6) > 5)
+                if (count($Sunday_check6) > 3)
                     return view('welcome');
                 else
                 {
@@ -403,7 +403,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time7){
-                if (count($Sunday_check7) > 5)
+                if (count($Sunday_check7) > 3)
                     return view('welcome');
                 else
                 {
@@ -426,7 +426,7 @@ class WorkshopController extends Controller
         }
         elseif ($day == $day3){
             if ($time == $time1){
-                if (count($Monday_check1) > 5)
+                if (count($Monday_check1) > 3)
                     return view('welcome');
                 else
                 {
@@ -447,7 +447,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Monday_check2) > 5)
+                if (count($Monday_check2) > 3)
                     return view('welcome');
                 else
                 {
@@ -468,7 +468,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time3){
-                if (count($Monday_check3) > 5)
+                if (count($Monday_check3) > 3)
                     return view('welcome');
                 else
                 {
@@ -489,7 +489,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time4){
-                if (count($Monday_check4) > 5)
+                if (count($Monday_check4) > 3)
                     return view('welcome');
                 else
                 {
@@ -510,7 +510,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time5){
-                if (count($Monday_check5) > 5)
+                if (count($Monday_check5) > 3)
                     return view('welcome');
                 else
                 {
@@ -531,7 +531,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time6){
-                if (count($Monday_check6) > 5)
+                if (count($Monday_check6) > 3)
                     return view('welcome');
                 else
                 {
@@ -552,7 +552,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time7){
-                if (count($Monday_check7) > 5)
+                if (count($Monday_check7) > 3)
                     return view('welcome');
                 else
                 {
@@ -575,7 +575,7 @@ class WorkshopController extends Controller
         }
         elseif ($day == $day4){
             if ($time == $time1){
-                if (count($Tuesday_check1) > 5)
+                if (count($Tuesday_check1) > 3)
                     return view('welcome');
                 else
                 {
@@ -596,7 +596,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Tuesday_check2) > 5)
+                if (count($Tuesday_check2) > 3)
                     return view('welcome');
                 else
                 {
@@ -617,7 +617,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time3){
-                if (count($Tuesday_check3) > 5)
+                if (count($Tuesday_check3) > 3)
                     return view('welcome');
                 else
                 {
@@ -638,7 +638,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time4){
-                if (count($Tuesday_check4) > 5)
+                if (count($Tuesday_check4) > 3)
                     return view('welcome');
                 else
                 {
@@ -659,7 +659,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time5){
-                if (count($Tuesday_check5) > 5)
+                if (count($Tuesday_check5) > 3)
                     return view('welcome');
                 else
                 {
@@ -680,7 +680,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time6){
-                if (count($Tuesday_check6) > 5)
+                if (count($Tuesday_check6) > 3)
                     return view('welcome');
                 else
                 {
@@ -701,7 +701,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time7){
-                if (count($Tuesday_check7) > 5)
+                if (count($Tuesday_check7) > 3)
                     return view('welcome');
                 else
                 {
@@ -724,7 +724,7 @@ class WorkshopController extends Controller
         }
         elseif ($day == $day5){
             if ($time == $time1){
-                if (count($Wednesday_check1) > 5)
+                if (count($Wednesday_check1) > 3)
                     return view('welcome');
                 else
                 {
@@ -745,7 +745,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Wednesday_check2) > 5)
+                if (count($Wednesday_check2) > 3)
                     return view('welcome');
                 else
                 {
@@ -766,7 +766,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time3){
-                if (count($Wednesday_check3) > 5)
+                if (count($Wednesday_check3) > 3)
                     return view('welcome');
                 else
                 {
@@ -787,7 +787,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time4){
-                if (count($Wednesday_check4) > 5)
+                if (count($Wednesday_check4) > 3)
                     return view('welcome');
                 else
                 {
@@ -808,7 +808,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time5){
-                if (count($Wednesday_check5) > 5)
+                if (count($Wednesday_check5) > 3)
                     return view('welcome');
                 else
                 {
@@ -829,7 +829,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time6){
-                if (count($Wednesday_check6) > 5)
+                if (count($Wednesday_check6) > 3)
                     return view('welcome');
                 else
                 {
@@ -850,7 +850,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time7){
-                if (count($Wednesday_check7) > 5)
+                if (count($Wednesday_check7) > 3)
                     return view('welcome');
                 else
                 {
@@ -873,7 +873,7 @@ class WorkshopController extends Controller
         }
         elseif ($day == $day6){
             if ($time == $time1){
-                if (count($Thursday_check1) > 5)
+                if (count($Thursday_check1) > 3)
                     return view('welcome');
                 else
                 {
@@ -894,7 +894,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Thursday_check2) > 5)
+                if (count($Thursday_check2) > 3)
                     return view('welcome');
                 else
                 {
@@ -915,7 +915,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time3){
-                if (count($Thursday_check3) > 5)
+                if (count($Thursday_check3) > 3)
                     return view('welcome');
                 else
                 {
@@ -936,7 +936,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time4){
-                if (count($Thursday_check4) > 5)
+                if (count($Thursday_check4) > 3)
                     return view('welcome');
                 else
                 {
@@ -957,7 +957,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time5){
-                if (count($Thursday_check5) > 5)
+                if (count($Thursday_check5) > 3)
                     return view('welcome');
                 else
                 {
@@ -978,7 +978,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time6){
-                if (count($Thursday_check6) > 5)
+                if (count($Thursday_check6) > 3)
                     return view('welcome');
                 else
                 {
@@ -999,7 +999,7 @@ class WorkshopController extends Controller
                 }
             }
              elseif ($time == $time7){
-                if (count($Thursday_check7) > 5)
+                if (count($Thursday_check7) > 3)
                     return view('welcome');
                 else
                 {
