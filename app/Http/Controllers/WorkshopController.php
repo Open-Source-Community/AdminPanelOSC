@@ -745,7 +745,7 @@ class WorkshopController extends Controller
                 }
             }
             elseif ($time == $time2){
-                if (count($Wednesday_check2) > 4)
+                if (count($Wednesday_check2) > 6)
                     return view('welcome');
                 else
                 {
