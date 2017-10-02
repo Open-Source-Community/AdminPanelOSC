@@ -2,7 +2,7 @@
 
 @section('content')
    
-<table style="margin-left: 0.2cm;" class="ttt">
+<table class="ttt">
 <tr class="ttt">
     <th class="ttt">Firstname</th>
     <th class="ttt">Lastname</th>
