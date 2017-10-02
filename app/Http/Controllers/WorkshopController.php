@@ -1298,4 +1298,18 @@ class WorkshopController extends Controller
     {
         //
     }
+    
+    public function delete($id)
+    {
+        if (Auth::user() != null) {
+            $notes = new Workshop;
+            $notes = $notes->find($id);
+
+            $notes->delete();
+
+            return back();
+        } else {
+            return redirect('/login');
+        }
+    }
 }

@@ -52,6 +52,7 @@ Route::get('/showallinterviewsworkshops_Sunday8/10/2017', 'WorkshopController@in
 
 Route::post('/addParticiple', 'WorkshopController@store');
 Route::get('/CreateNewParticiple', 'WorkshopController@create');
+Route::get('/Participles/{id}/delete', 'WorkshopController@delete');
 
 Route::post('/addadmin', 'HomeController@insert');
 Route::get('/CreateNewAdmin', 'HomeController@index2');

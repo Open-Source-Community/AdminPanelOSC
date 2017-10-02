@@ -13,6 +13,7 @@
     <th class="ttt">Task</th>
     <th class="ttt">Day</th>
     <th class="ttt">Time</th>
+    <th class="ttt">Delete</th>
   </tr>
   
       @foreach($check as $user_details)    
@@ -44,6 +45,9 @@
        <td class="ttt">
                 {{ $user_details->time }}
             </td>
+        <td class="ttt">
+        <a href="Participles/{{ $user_details->id }}/delete">Delete</a>
+        </td>
         
     </tr>
     @endforeach
