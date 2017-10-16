@@ -11,9 +11,9 @@ class UsersTableSeeder extends Seeder
             'name' => "OSC",
             'email' => "osc_geeks@osc.com",
             'password' => bcrypt("oscgeeks"),
-            'phone' => 011,
+            'phone' => "",
             'role' => 1,
-            'position_id' => 011,
+            'position_id' => 1,
         ]);
     }
 }

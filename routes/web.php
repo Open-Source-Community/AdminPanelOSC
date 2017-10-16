@@ -1,6 +1,7 @@
 <?php
 
-
+Auth::routes();
+Route::Resource('/', 'CommitteesController');
 Route::Resource('/committees', 'CommitteesController');
 Route::Resource('/committees.images', 'CommitteeImagesController');
 Route::Resource('/events', 'EventsController');
@@ -28,7 +29,7 @@ Route::get('/CreateNewParticiple', 'WorkshopController@create');
 Route::get('/Participles/{id}/delete', 'WorkshopController@delete');
 
 
-Auth::routes();
+
 
 
 
