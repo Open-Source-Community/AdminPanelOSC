@@ -2,6 +2,7 @@
 
 Auth::routes();
 Route::Resource('/', 'CommitteesController');
+Route::Resource('/home', 'CommitteesController');
 Route::Resource('/committees', 'CommitteesController');
 Route::Resource('/committees.images', 'CommitteeImagesController');
 Route::Resource('/events', 'EventsController');

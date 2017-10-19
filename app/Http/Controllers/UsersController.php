@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -75,7 +76,8 @@ class UsersController extends Controller
     {
         $item = User::find($id);
         $positions = Position::all();
-        return view('Admin.users.edit', compact('item', 'positions'));
+        $committees = Committee::all();
+        return view('Admin.users.edit', compact('item', 'positions','committees'));
     }
 
     /**

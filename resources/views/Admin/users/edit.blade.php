@@ -62,40 +62,13 @@
                                     </div>
 
                                     <div class="form-group form-md-line-input">
-                                        <label>Committee </label> <br />
-                                       <label style="font-size: 12px;"> add all user committee </label>
-                                        <div class="checkbox">
-                                            <label><input name="committee_ids[]" type="checkbox" value="1">Linux</label>
-                                        </div>
-                                        <div class="checkbox">
-                                            <label><input name="committee_ids[]" type="checkbox" value="2">Web</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">English Heroes</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox"
-                                                          value="3">Blender</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">HR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">PR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">FR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">LR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">CCC</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox"
-                                                          value="3">Artwork</label>
-                                        </div>
+                                        <label>Committee </label> <br/>
+                                        <label style="font-size: 12px;"> add all user committee </label>
+                                        @foreach($committees as $committee)
+                                            <div class="checkbox">
+                                                <label><input name="committee_ids[]" type="checkbox" value="{{$committee->id}}">{{$committee->name}}</label>
+                                            </div>
+                                        @endforeach
                                     </div>
 
                                     <div class="form-group form-md-line-input">

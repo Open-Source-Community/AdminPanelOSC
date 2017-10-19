@@ -9,10 +9,7 @@ use Auth;
 
 class CommitteeImagesController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+
 
     public function index($committee_id)
     {
@@ -32,7 +29,7 @@ class CommitteeImagesController extends Controller
     }
 
 
-    public function delete($committee_id, $image_id)
+    public function destroy($committee_id, $image_id)
     {
         $item = Committee_image::find($image_id);
         $item->delete();

@@ -41,7 +41,7 @@
                                     <td>{{$item->name}}</td>
                                     <td>{{$item->email}}</td>
                                     <td>{{$item->phone}}</td>
-                                    <td>
+                                    <td style="min-width: 200px">
                                         @foreach($item->committees as $committee)
                                             {{$committee->committee['name']}}
                                             <br />

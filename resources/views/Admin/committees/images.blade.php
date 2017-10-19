@@ -35,7 +35,7 @@
                                     <td>{{$item->id}}</td>
                                     <td><img src="{{$item->image}}" width="50" height="50"></td>
                                     <td>
-                                        <form method="post" action="{{url("committees/$committee_id/images/$item->id")}}">
+                                        <form onsubmit='return ConfirmDelete()' method="post" action="{{url("committees/$committee_id/images/$item->id")}}">
                                             {{ method_field('DELETE') }}
                                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                             <button type="submit" class="btn btn-danger label-sm">حذف</button>
