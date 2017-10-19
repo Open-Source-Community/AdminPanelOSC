@@ -9,7 +9,7 @@ class UsersTableSeeder extends Seeder
     {
         \App\User::create([
             'name' => "OSC",
-            'email' => "osc_geeks@osc.com",
+            'email' => "oscgeeks@osc.com",
             'password' => bcrypt("oscgeeks"),
             'phone' => "",
             'role' => 1,

@@ -10,16 +10,15 @@ use Auth;
 class CommitteeImagesController extends Controller
 {
 
-
     public function index($committee_id)
     {
-        $items = Committee_image::paginate(10);
+        $items = Committee_image::where('committee_id', $committee_id)->paginate(10);
         return view('Admin.committees.images', compact('items', 'committee_id'));
     }
 
     public function create($committee_id)
     {
-        return view('Admin.committees.addimages', compact('committee_id'));
+        return view('Admin.committees.addImages', compact('committee_id'));
     }
 
     public function store(Request $request, $committee_id)

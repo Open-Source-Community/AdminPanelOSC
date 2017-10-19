@@ -9,7 +9,7 @@
                 <div class="portlet-title">
                     <div class="caption">
                         <i class="icon-bubble font-dark"></i>
-                        <span class="caption-subject font-dark bold uppercase">الاقسام</span>
+                        <span class="caption-subject font-dark bold uppercase">صور</span>
                     </div>
                     <div class="actions">
                         <div class="btn-group">
@@ -26,7 +26,7 @@
                         <div class="portlet-title">
                             <div class="caption font-red-sunglo">
                                 <i class="icon-user font-red-sunglo"></i>
-                                <span class="caption-subject bold uppercase"> اضف قسم</span>
+                                <span class="caption-subject bold uppercase"> اضف صورة</span>
                             </div>
 
                         </div>

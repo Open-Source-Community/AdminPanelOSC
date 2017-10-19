@@ -36,7 +36,7 @@
                             @foreach($user_data as $item)
                                 <tr>
                                     <td>{{$item->id}}</td>
-                                    <td><img src="{{$item->image}}" width="50" height="50"></td>
+                                    <td><img src="{{$item->imageurl}}" width="50" height="50"></td>
                                     <td>{{$item->title}}</td>
                                     <td>{{$item->description}}</td>
 
