@@ -74,32 +74,36 @@
                                             <label><input name="committee_ids[]" type="checkbox" value="1">Linux</label>
                                         </div>
                                         <div class="checkbox">
-                                            <label><input name="committee_ids[]" type="checkbox" value="2">Web</label>
+                                            <label><input name="committee_ids[]" type="checkbox" value="2">Projects</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><input name="committee_ids[]" type="checkbox" value="3">Web</label>
                                         </div>
                                         <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">English Heroes</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">Blender</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">HR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">PR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">FR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">LR</label>
-                                        </div>
-                                        <div class="checkbox ">
-                                            <label><input name="committee_ids[]" type="checkbox" value="3">CCC</label>
+                                            <label><input name="committee_ids[]" type="checkbox" value="4">CCC</label>
                                         </div>
                                         <div class="checkbox ">
                                             <label><input name="committee_ids[]" type="checkbox"
-                                                          value="3">Artwork</label>
+                                                          value="5">Artwork</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label><input name="committee_ids[]" type="checkbox" value="6">English Heroes</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label><input name="committee_ids[]" type="checkbox"
+                                                          value="7">Blender</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label><input name="committee_ids[]" type="checkbox" value="8">HR</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label><input name="committee_ids[]" type="checkbox" value="9">PR</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label><input name="committee_ids[]" type="checkbox" value="10">FR</label>
+                                        </div>
+                                        <div class="checkbox ">
+                                            <label><input name="committee_ids[]" type="checkbox" value="11">LR</label>
                                         </div>
                                     </div>
 
@@ -117,8 +121,8 @@
 
                                     <div class="form-group form-md-line-input">
                                         <select name="role" class="form-control">
+                                            <option value="1">Admin</option>
                                             <option value="2">user</option>
-                                              <option value="1">Admin</option>
                                         </select>
 
                                         <label for="form_control_1 input-lg">Role</label>
