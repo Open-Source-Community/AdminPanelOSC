@@ -76,11 +76,11 @@ th, td {
                                         Event
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="/addcommittee">
-                                        Committee
-                                    </a>
-                                </li>
+                                {{--<li>--}}
+                                    {{--<a href="/addcommittee">--}}
+                                        {{--Committee--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
                                 <li>
                                     <a href="/addimagestocommittee">
                                         Image of Committee
@@ -100,11 +100,11 @@ th, td {
                                         All Events
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="/showallcommittees">
-                                        All Committees
-                                    </a>
-                                </li>
+                                {{--<li>--}}
+                                    {{--<a href="/showallcommittees">--}}
+                                        {{--All Committees--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
                                 <li>
                                     <a href="/showallimages">
                                         All Images of Committees
@@ -120,11 +120,11 @@ th, td {
                             </a>
 
                             <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="/CreateNewParticiple">
-                                        Create New Participle
-                                    </a>
-                                </li>
+                                {{--<li>--}}
+                                    {{--<a href="/CreateNewParticiple">--}}
+                                        {{--Create New Participle--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
                                 <li>
                                     <a href="/CreateNewAdmin">
                                         Create New Admin
@@ -145,55 +145,55 @@ th, td {
                             </ul>
                         </li>
 
-                    <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-expanded="false">
-                                Workshops Interviews <span class="caret"></span>
-                            </a>
+                    {{--<li class="dropdown">--}}
+                            {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"--}}
+                               {{--aria-expanded="false">--}}
+                                {{--Workshops Interviews <span class="caret"></span>--}}
+                            {{--</a>--}}
 
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Saturday">
-                                        Saturday
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Sunday">
-                                        Sunday
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Monday">
-                                        Monday
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Tuesday">
-                                        Tuesday
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Wednesday">
-                                        Wednesday
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Thursday">
-                                        Thursday
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Saturday7/10/2017">
-                                        Saturday 7/10/2017
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/showallinterviewsworkshops_Sunday8/10/2017">
-                                        Sunday 8/10/2017
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                            {{--<ul class="dropdown-menu" role="menu">--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Saturday">--}}
+                                        {{--Saturday--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Sunday">--}}
+                                        {{--Sunday--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Monday">--}}
+                                        {{--Monday--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Tuesday">--}}
+                                        {{--Tuesday--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Wednesday">--}}
+                                        {{--Wednesday--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Thursday">--}}
+                                        {{--Thursday--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Saturday7/10/2017">--}}
+                                        {{--Saturday 7/10/2017--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<a href="/showallinterviewsworkshops_Sunday8/10/2017">--}}
+                                        {{--Sunday 8/10/2017--}}
+                                    {{--</a>--}}
+                                {{--</li>--}}
+                            {{--</ul>--}}
+                        {{--</li>--}}
                     @endif
                 </ul>
             </div>
