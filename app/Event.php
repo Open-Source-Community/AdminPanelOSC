@@ -8,6 +8,6 @@ class Event extends Eloquent
 {
     public $timestamps = false;
     protected $fillable = [
-        'title', 'imageurl', 'description'
+        'id', 'title', 'imageurl', 'description'
     ];
 }

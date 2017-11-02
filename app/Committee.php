@@ -8,6 +8,6 @@ class Committee extends Eloquent
 {
     public $timestamps = false;
     protected $fillable = [
-        'name'
+        'id', 'name'
     ];
 }

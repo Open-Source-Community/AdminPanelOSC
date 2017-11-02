@@ -8,6 +8,6 @@ class Committee_image extends Model
 {
     public $timestamps = false;
     protected $fillable = [
-        'image', 'committee_id'
+        'id', 'image', 'committee_id'
     ];
 }
