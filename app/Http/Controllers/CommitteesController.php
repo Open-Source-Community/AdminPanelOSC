@@ -8,6 +8,19 @@ use Auth;
 
 class CommitteesController extends Controller
 {
+
+
+    public function index()
+    {
+        $user_data = Committee::paginate(10);
+        return view('Admin.committees.index', compact('user_data'));
+    }
+
+    public function create()
+    {
+        return view('Admin.committees.create');
+    }
+
     public function insert(Request $request)
     {
         $title = $request->input('title');
@@ -30,15 +43,6 @@ class CommitteesController extends Controller
         }
     }
 
-    public function index()
-    {
-        if (Auth::user() != null) {
-            $user_data = Committee::all();
-            return view('showallcommittees', compact('user_data'));
-        } else {
-            return redirect('/login');
-        }
-    }
 
     public function edit($id)
     {

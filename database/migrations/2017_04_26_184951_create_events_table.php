@@ -18,7 +18,7 @@ class CreateEventsTable extends Migration
             $table->text('title');
             $table->text('imageurl');
             $table->text('description');
-            $table->timestamps();
+
         });
     }
 

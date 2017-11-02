@@ -8,6 +8,7 @@ use Auth;
 
 class ImagesController extends Controller
 {
+
     public function insert(Request $request)
     {
         $title = $request->input('comm_name');
