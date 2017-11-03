@@ -9,7 +9,7 @@
                 <div class="portlet-title">
                     <div class="caption">
                         <i class="icon-bubble font-dark"></i>
-                        <span class="caption-subject font-dark bold uppercase">العملاء</span>
+                        <span class="caption-subject font-dark bold uppercase">Events</span>
                     </div>
                     <div class="actions">
                         <div class="btn-group">
