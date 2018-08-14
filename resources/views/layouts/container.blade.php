@@ -107,14 +107,14 @@
                     </li>
                     <!-- END SIDEBAR TOGGLER BUTTON -->
 
-                    <li class="committees nav-item  ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
+                    <li class="nav-item">
+                        <a href="javascript:" class="nav-link nav-toggle">
                             <i class="icon-diamond"></i>
                             <span class="title">Committees</span>
-                            <span class="committees arrow"></span>
+                            <span class="arrow"></span>
                         </a>
                         <ul class="sub-menu">
-                            <li class="list nav-item  ">
+                            <li class="list nav-item">
                                 <a href="{{url('committees')}}" class="nav-link ">
                                     <span class="title">Committees</span>
                                 </a>
@@ -122,47 +122,85 @@
                         </ul>
                     </li>
 
-                    <li class="events nav-item  ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
+                    <li class="nav-item">
+                        <a href="javascript:" class="nav-link nav-toggle">
                             <i class="icon-diamond"></i>
                             <span class="title">Events</span>
-                            <span class="events arrow"></span>
+                            <span class="arrow"></span>
                         </a>
                         <ul class="sub-menu">
-                            <li class="list nav-item  ">
+                            <li class="list nav-item">
                                 <a href="{{url('events')}}" class="nav-link ">
                                     <span class="title">Events</span>
                                 </a>
                             </li>
-                            <li class="add nav-item  ">
+                            <li class="add nav-item">
                                 <a href="{{url('events/create')}}" class="nav-link ">
-                                    <span class="title">Add </span>
+                                    <span class="title">Add</span>
                                 </a>
                             </li>
                         </ul>
                     </li>
 
-                    <li class="users nav-item  ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
+                    <li class="nav-item">
+                        <a href="javascript:" class="nav-link nav-toggle">
                             <i class="icon-diamond"></i>
                             <span class="title">Users</span>
-                            <span class="users arrow"></span>
+                            <span class="arrow"></span>
                         </a>
                         <ul class="sub-menu">
-                            <li class="list nav-item  ">
+                            <li class="list nav-item">
                                 <a href="{{url('users')}}" class="nav-link ">
                                     <span class="title">Users</span>
                                 </a>
                             </li>
-                            <li class="add nav-item  ">
+                            <li class="add nav-item">
                                 <a href="{{url('users/create')}}" class="nav-link ">
-                                    <span class="title">Add </span>
+                                    <span class="title">Add</span>
                                 </a>
                             </li>
                         </ul>
                     </li>
 
-
+                    <li class="nav-item">
+                        <a href="javascript:" class="nav-link nav-toggle">
+                            <i class="icon-diamond"></i>
+                            <span class="title">Online Recruitment</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="list nav-item">
+                                <a href="{{url('OnlineRecruitment/Saturday')}}" class="nav-link ">
+                                    <span class="title">Saturday</span>
+                                </a>
+                            </li>
+                            <li class="list nav-item">
+                                <a href="{{url('OnlineRecruitment/Sunday')}}" class="nav-link ">
+                                    <span class="title">Sunday</span>
+                                </a>
+                            </li>
+                            <li class="list nav-item">
+                                <a href="{{url('OnlineRecruitment/Monday')}}" class="nav-link ">
+                                    <span class="title">Monday</span>
+                                </a>
+                            </li>
+                            <li class="list nav-item">
+                                <a href="{{url('OnlineRecruitment/Tuesday')}}" class="nav-link ">
+                                    <span class="title">Tuesday</span>
+                                </a>
+                            </li>
+                            <li class="list nav-item">
+                                <a href="{{url('OnlineRecruitment/Wednesday')}}" class="nav-link ">
+                                    <span class="title">Wednesday</span>
+                                </a>
+                            </li>
+                            <li class="list nav-item">
+                                <a href="{{url('OnlineRecruitment/Thursday')}}" class="nav-link ">
+                                    <span class="title">Thursday</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
 
             </div>

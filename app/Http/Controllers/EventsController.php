@@ -11,7 +11,7 @@ class EventsController extends Controller
 {
     public function index()
     {
-        $user_data = Event::paginate(10);
+        $user_data = Event::paginate(6);
         return view('Admin.events.index', compact('user_data'));
     }
 

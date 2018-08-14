@@ -8,11 +8,9 @@ use Auth;
 
 class CommitteesController extends Controller
 {
-
-
     public function index()
     {
-        $user_data = Committee::paginate(10);
+        $user_data = Committee::paginate(6);
         return view('Admin.committees.index', compact('user_data'));
     }
 

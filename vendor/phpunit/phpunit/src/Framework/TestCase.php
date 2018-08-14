@@ -190,7 +190,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
     private $mockObjects = [];
 
     /**
-     * @var array
+     * @var MockGenerator
      */
     private $mockObjectGenerator = null;
 
@@ -945,11 +945,6 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
             $e = $_e;
         }
 
-        if (isset($_e)) {
-            $this->status        = PHPUnit_Runner_BaseTestRunner::STATUS_ERROR;
-            $this->statusMessage = $_e->getMessage();
-        }
-
         // Clean up the mock objects.
         $this->mockObjects = [];
         $this->prophet     = null;
@@ -984,6 +979,11 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
             if (!isset($e)) {
                 $e = $_e;
             }
+        }
+
+        if (isset($_e)) {
+            $this->status        = PHPUnit_Runner_BaseTestRunner::STATUS_ERROR;
+            $this->statusMessage = $_e->getMessage();
         }
 
         clearstatcache();
@@ -2130,7 +2130,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
     /**
      * Performs assertions shared by all tests of a test case.
      *
-     * This method is called before the execution of a test ends
+     * This method is called after the execution of a test ends
      * and before tearDown() is called.
      */
     protected function assertPostConditions()

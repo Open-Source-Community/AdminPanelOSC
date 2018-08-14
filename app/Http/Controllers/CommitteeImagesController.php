@@ -12,7 +12,7 @@ class CommitteeImagesController extends Controller
 
     public function index($committee_id)
     {
-        $items = Committee_image::where('committee_id', $committee_id)->paginate(10);
+        $items = Committee_image::where('committee_id', $committee_id)->paginate(6);
         return view('Admin.committees.images', compact('items', 'committee_id'));
     }
 
