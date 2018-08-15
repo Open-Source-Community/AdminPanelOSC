@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Event;
 use App\Form;
-use Illuminate\Http\Request;
 use Auth;
+use Illuminate\Http\Request;
 
 class EventsController extends Controller
 {

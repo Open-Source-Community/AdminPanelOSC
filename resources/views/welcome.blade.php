@@ -59,7 +59,7 @@
         }
 
         .title {
-            font-size: 84px;
+            font-size: 50px;
         }
 
         .links > a {
@@ -79,7 +79,7 @@
 </head>
 <body>
 <div class="flex-center position-ref full-height">
-       <div class="content">
+    <div class="content">
         <div class="title m-b-md">
             Sorry, The slot you have picked is fully booked! Please choose another time for your interview.
         </div>
