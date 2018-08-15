@@ -17,12 +17,11 @@ Route::post('/addParticiple', 'WorkshopController@store');
 Route::get('/CreateNewParticiple', 'WorkshopController@create');
 Route::get('/Participles/{id}/delete', 'WorkshopController@delete');
 
-Route::Resource('/OnlineRecruitment', 'RecruitmentController');
-
 Route::get('/OnlineRecruitment/Saturday', 'RecruitmentController@Saturday_Day');
 Route::get('/OnlineRecruitment/Sunday', 'RecruitmentController@Sunday_Day');
 Route::get('/OnlineRecruitment/Monday', 'RecruitmentController@Monday_Day');
 Route::get('/OnlineRecruitment/Tuesday', 'RecruitmentController@Tuesday_Day');
 Route::get('/OnlineRecruitment/Wednesday', 'RecruitmentController@Wednesday_Day');
 Route::get('/OnlineRecruitment/Thursday', 'RecruitmentController@Thursday_Day');
+Route::Resource('/OnlineRecruitment', 'RecruitmentController');
 Route::get('/refused', 'RecruitmentController@refused');
