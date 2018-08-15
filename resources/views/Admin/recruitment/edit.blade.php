@@ -150,23 +150,23 @@
 
                                     <div class="form-group form-md-line-input">
                                         <select required name="day" class="form-control">
-                                            <option @if($item->day=="Saturday") selected @endif
-                                            value="Saturday">Saturday
+                                            <option @if($item->day==1) selected @endif
+                                            value="1">Saturday
                                             </option>
-                                            <option @if($item->day=="Sunday") selected @endif
-                                            value="Sunday">Sunday
+                                            <option @if($item->day==2) selected @endif
+                                            value="2">Sunday
                                             </option>
-                                            <option @if($item->day=="Monday") selected @endif
-                                            value="Monday">Monday
+                                            <option @if($item->day==3) selected @endif
+                                            value="3">Monday
                                             </option>
-                                            <option @if($item->day=="Tuesday") selected @endif
-                                            value="Tuesday">Tuesday
+                                            <option @if($item->day==4) selected @endif
+                                            value="4">Tuesday
                                             </option>
-                                            <option @if($item->day=="Wednesday") selected @endif
-                                            value="Wednesday">Wednesday
+                                            <option @if($item->day==5) selected @endif
+                                            value="5">Wednesday
                                             </option>
-                                            <option @if($item->day=="Thursday") selected @endif
-                                            value="Thursday">Thursday
+                                            <option @if($item->day==6) selected @endif
+                                            value="6">Thursday
                                             </option>
                                         </select>
                                         <label for="day">Day</label>
@@ -174,20 +174,20 @@
 
                                     <div class="form-group form-md-line-input">
                                         <select required name="time" class="form-control">
-                                            <option @if($item->time=="from 10:00 to 11:30") selected @endif
-                                            value="from 10:00 to 11:30">from 10:00 to 11:30
+                                            <option @if($item->time==1) selected @endif
+                                            value="1">from 10:00 to 11:30
                                             </option>
-                                            <option @if($item->time=="from 11:30 to 01:00") selected @endif
-                                            value="from 11:30 to 01:00">from 11:30 to 01:00
+                                            <option @if($item->time==2) selected @endif
+                                            value="2">from 11:30 to 01:00
                                             </option>
-                                            <option @if($item->time=="from 01:00 to 02:30") selected @endif
-                                            value="from 01:00 to 02:30">from 01:00 to 02:30
+                                            <option @if($item->time==3) selected @endif
+                                            value="3">from 01:00 to 02:30
                                             </option>
-                                            <option @if($item->time=="from 02:30 to 04:00") selected @endif
-                                            value="from 02:30 to 04:00">from 02:30 to 04:00
+                                            <option @if($item->time==4) selected @endif
+                                            value="4">from 02:30 to 04:00
                                             </option>
-                                            <option @if($item->time=="from 04:00 to 05:30") selected @endif
-                                            value="from 04:00 to 05:30">from 04:00 to 05:30
+                                            <option @if($item->time==5) selected @endif
+                                            value="5">from 04:00 to 05:30
                                             </option>
                                         </select>
                                         <label for="time">Time</label>

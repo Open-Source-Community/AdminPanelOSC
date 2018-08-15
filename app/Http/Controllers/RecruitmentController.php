@@ -14,7 +14,7 @@ class RecruitmentController extends Controller
      */
     public function index()
     {
-        $data = Recruit::paginate(6);
+        $data = Recruit::orderBy('day')->orderBy('time')->paginate(6);
         $flag = true;
         return view('Admin.recruitment.index', compact('flag', 'data'));
     }
@@ -74,18 +74,18 @@ class RecruitmentController extends Controller
     {
         $item = Recruit::find($id);
 
-        $time1 = 'from 10:00 to 11:30';
-        $time2 = 'from 11:30 to 01:00';
-        $time3 = 'from 01:00 to 02:30';
-        $time4 = 'from 02:30 to 04:00';
-        $time5 = 'from 04:00 to 05:30';
+        $time1 = 1;
+        $time2 = 2;
+        $time3 = 3;
+        $time4 = 4;
+        $time5 = 5;
 
-        $day1 = 'Saturday';
-        $day2 = 'Sunday';
-        $day3 = 'Monday';
-        $day4 = 'Tuesday';
-        $day5 = 'Wednesday';
-        $day6 = 'Thursday';
+        $day1 = 1;
+        $day2 = 2;
+        $day3 = 3;
+        $day4 = 4;
+        $day5 = 5;
+        $day6 = 6;
 
         $day = $request->input('day');
         $time = $request->input('time');
@@ -357,41 +357,42 @@ class RecruitmentController extends Controller
 
     public function Saturday_Day()
     {
-        $data = Recruit::where('day', 'Saturday')->paginate(6);
+        $data = Recruit::where('day', 1)->orderBy('time')->paginate(6);
         $flag = false;
         return view('Admin.recruitment.index', compact('flag', 'data'));
     }
 
     public function Sunday_Day()
     {
-        $data = Recruit::where('day', 'Sunday')->paginate(6);
+        $data = Recruit::where('day', 2)->orderBy('time')->paginate(6);
         $flag = false;
         return view('Admin.recruitment.index', compact('flag', 'data'));
     }
 
     public function Monday_Day()
     {
-        $data = Recruit::where('day', 'Monday')->paginate(6);
+        $data = Recruit::where('day', 3)->orderBy('time')->paginate(6);
         $flag = false;
         return view('Admin.recruitment.index', compact('flag', 'data'));
     }
 
     public function Tuesday_Day()
     {
-        $data = Recruit::where('day', 'Tuesday')->paginate(6);
+        $data = Recruit::where('day', 4)->orderBy('time')->paginate(6);
         $flag = false;
         return view('Admin.recruitment.index', compact('flag', 'data'));
     }
 
     public function Wednesday_Day()
     {
-        $data = Recruit::where('day', 'Wednesday')->paginate(6);
-        return view('Admin.recruitment.index', compact('data'));
+        $data = Recruit::where('day', 5)->orderBy('time')->paginate(6);
+        $flag = false;
+        return view('Admin.recruitment.index', compact('flag', 'data'));
     }
 
     public function Thursday_Day()
     {
-        $data = Recruit::where('day', 'Thursday')->paginate(6);
+        $data = Recruit::where('day', 6)->orderBy('time')->paginate(6);
         $flag = false;
         return view('Admin.recruitment.index', compact('flag', 'data'));
     }

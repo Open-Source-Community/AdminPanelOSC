@@ -42,9 +42,32 @@
                                     <td>{{$item->first_committee}}</td>
                                     <td>{{$item->second_committee}}</td>
                                     @if($flag)
-                                        <td>{{$item->day}}</td>
+                                        @if($item->day == 1)
+                                            <td>Saturday</td>
+                                        @elseif($item->day == 2)
+                                            <td>Sunday</td>
+                                        @elseif($item->day == 3)
+                                            <td>Monday</td>
+                                        @elseif($item->day == 4)
+                                            <td>Tuesday</td>
+                                        @elseif($item->day == 5)
+                                            <td>Wednesday</td>
+                                        @elseif($item->day == 6)
+                                            <td>Thursday</td>
+                                        @endif
                                     @endif
-                                    <td>{{$item->time}}</td>
+
+                                    @if($item->time == 1)
+                                        <td>From 10:00 To 11:30</td>
+                                    @elseif($item->time == 2)
+                                        <td>From 11:30 To 01:00</td>
+                                    @elseif($item->time == 3)
+                                        <td>From 01:00 To 02:30</td>
+                                    @elseif($item->time == 4)
+                                        <td>From 02:30 To 04:00</td>
+                                    @elseif($item->time == 5)
+                                        <td>From 04:00 To 05:30</td>
+                                    @endif
 
                                     <td>
                                         <a href="{{url("OnlineRecruitment/$item->id/edit")}}">
