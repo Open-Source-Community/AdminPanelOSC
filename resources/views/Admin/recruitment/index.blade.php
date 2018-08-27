@@ -73,6 +73,12 @@
                                         <a href="{{url("OnlineRecruitment/$item->id/edit")}}">
                                             <button class="btn btn-warning label-sm">Edit</button>
                                         </a>
+                                        <form onsubmit='return ConfirmDelete()' method="post"
+                                              action="{{url("OnlineRecruitment/$item->id")}}">
+                                            {{ method_field('DELETE') }}
+                                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                            <button type="submit" class="btn btn-danger label-sm">Delete</button>
+                                        </form>
                                     </td>
                                 </tr>
                             @endforeach
