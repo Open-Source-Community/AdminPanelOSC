@@ -354,7 +354,7 @@ class RecruitmentController extends Controller
     {
         $item = Recruit::find($id);
         $item->delete();
-        return redirect("OnlineRecruitment");
+        return back();
     }
 
     public function Saturday_Day()

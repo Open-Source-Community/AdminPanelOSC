@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7404e9e7-d8c2-4fd8-8ef6-121d76d52fdf" name="Default" comment="sorted data">
+    <list default="true" id="7404e9e7-d8c2-4fd8-8ef6-121d76d52fdf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/Admin/recruitment/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/Admin/recruitment/index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecruitmentController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecruitmentController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="348" column="6" lean-forward="true" selection-start-line="348" selection-start-column="6" selection-end-line="348" selection-end-column="6" />
+            <state relative-caret-position="234">
+              <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -30,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin/recruitment/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
@@ -148,8 +147,8 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_08_14_210747_create_recruits_table.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/container.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php" />
         <option value="$PROJECT_DIR$/resources/views/Admin/recruitment/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php" />
       </list>
     </option>
   </component>
@@ -475,7 +474,7 @@
       <workItem from="1534680782643" duration="38000" />
       <workItem from="1534775557758" duration="11000" />
       <workItem from="1535158046306" duration="76000" />
-      <workItem from="1535402209993" duration="304000" />
+      <workItem from="1535402209993" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="final admin tool">
       <created>1508447088110</created>
@@ -533,11 +532,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534366323266</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="delete option for online recruit">
+      <created>1535402542555</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1535402542555</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47411000" />
+    <option name="totallyTimeSpent" value="47555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="34" width="1321" height="780" extended-state="6" />
@@ -579,7 +585,8 @@
     <MESSAGE value="fixed another issue" />
     <MESSAGE value="fixed another issue with redundancy of select items" />
     <MESSAGE value="sorted data" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorted data" />
+    <MESSAGE value="delete option for online recruit" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete option for online recruit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -821,16 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="348" column="6" lean-forward="true" selection-start-line="348" selection-start-column="6" selection-end-line="348" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/events/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -844,6 +841,16 @@
         <state relative-caret-position="178">
           <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
