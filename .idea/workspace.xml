@@ -20,8 +20,8 @@
       <file leaf-file-name="RecruitmentController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="324" column="35" lean-forward="false" selection-start-line="324" selection-start-column="35" selection-end-line="324" selection-end-column="35" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -29,11 +29,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EventsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin/recruitment/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="1260">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,7 +52,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Admin/events/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="828">
               <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="50" selection-end-column="47" />
               <folding />
             </state>
@@ -474,7 +484,10 @@
       <workItem from="1534680782643" duration="38000" />
       <workItem from="1534775557758" duration="11000" />
       <workItem from="1535158046306" duration="76000" />
-      <workItem from="1535402209993" duration="448000" />
+      <workItem from="1535402209993" duration="1074000" />
+      <workItem from="1535403931275" duration="7000" />
+      <workItem from="1535404168075" duration="16000" />
+      <workItem from="1535669887760" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="final admin tool">
       <created>1508447088110</created>
@@ -539,17 +552,24 @@
       <option name="project" value="LOCAL" />
       <updated>1535402542555</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed issue">
+      <created>1535402671897</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1535402671897</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47555000" />
+    <option name="totallyTimeSpent" value="48226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="34" width="1321" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26630008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2804399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -581,12 +601,12 @@
     <MESSAGE value="add rule, login with admin only role 1, Update in committees checkbox" />
     <MESSAGE value="hide anything related to committees" />
     <MESSAGE value="Merge branch 'AhmedTarek'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;routes/web.php" />
-    <MESSAGE value="fixed issue" />
     <MESSAGE value="fixed another issue" />
     <MESSAGE value="fixed another issue with redundancy of select items" />
     <MESSAGE value="sorted data" />
     <MESSAGE value="delete option for online recruit" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete option for online recruit" />
+    <MESSAGE value="fixed issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -820,17 +840,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="45" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/events/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="828">
           <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="50" selection-end-column="47" />
           <folding />
         </state>
@@ -838,16 +850,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Admin/recruitment/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="1260">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EventsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RecruitmentController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="324" column="35" lean-forward="false" selection-start-line="324" selection-start-column="35" selection-end-line="324" selection-end-column="35" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>

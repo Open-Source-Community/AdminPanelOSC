@@ -322,7 +322,7 @@ class RecruitmentController extends Controller
             else
                 return true;
         } elseif ($time == $time2) {
-            if (count($check2) == 4)
+            if (count($check2) == 5)
                 return false;
             else
                 return true;
