@@ -265,7 +265,7 @@ class RecruitmentController extends Controller
             else
                 return true;
         } elseif ($time == $time5) {
-            if (count($check5) == 4)
+            if (count($check5) == 5)
                 return false;
             else
                 return true;
@@ -296,7 +296,7 @@ class RecruitmentController extends Controller
             else
                 return true;
         } elseif ($time == $time4) {
-            if (count($check4) == 4)
+            if (count($check4) == 5)
                 return false;
             else
                 return true;
