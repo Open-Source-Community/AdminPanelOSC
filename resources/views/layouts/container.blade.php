@@ -170,6 +170,11 @@
                         </a>
                         <ul class="sub-menu">
                             <li class="list nav-item">
+                                <a href="{{url('OnlineRecruitment')}}" class="nav-link ">
+                                    <span class="title">All Days</span>
+                                </a>
+                            </li>
+                            <li class="list nav-item">
                                 <a href="{{url('OnlineRecruitment/Saturday')}}" class="nav-link ">
                                     <span class="title">Saturday</span>
                                 </a>
