@@ -165,42 +165,42 @@
                     <li class="nav-item">
                         <a href="javascript:" class="nav-link nav-toggle">
                             <i class="icon-diamond"></i>
-                            <span class="title">Online Recruitment</span>
+                            <span class="title">Workshop</span>
                             <span class="arrow"></span>
                         </a>
                         <ul class="sub-menu">
                             <li class="list nav-item">
-                                <a href="{{url('OnlineRecruitment')}}" class="nav-link ">
+                                <a href="{{url('Workshop')}}" class="nav-link ">
                                     <span class="title">All Days</span>
                                 </a>
                             </li>
                             <li class="list nav-item">
-                                <a href="{{url('OnlineRecruitment/Saturday')}}" class="nav-link ">
+                                <a href="{{url('Workshop/Saturday')}}" class="nav-link ">
                                     <span class="title">Saturday</span>
                                 </a>
                             </li>
                             <li class="list nav-item">
-                                <a href="{{url('OnlineRecruitment/Sunday')}}" class="nav-link ">
+                                <a href="{{url('Workshop/Sunday')}}" class="nav-link ">
                                     <span class="title">Sunday</span>
                                 </a>
                             </li>
                             <li class="list nav-item">
-                                <a href="{{url('OnlineRecruitment/Monday')}}" class="nav-link ">
+                                <a href="{{url('Workshop/Monday')}}" class="nav-link ">
                                     <span class="title">Monday</span>
                                 </a>
                             </li>
                             <li class="list nav-item">
-                                <a href="{{url('OnlineRecruitment/Tuesday')}}" class="nav-link ">
+                                <a href="{{url('Workshop/Tuesday')}}" class="nav-link ">
                                     <span class="title">Tuesday</span>
                                 </a>
                             </li>
                             <li class="list nav-item">
-                                <a href="{{url('OnlineRecruitment/Wednesday')}}" class="nav-link ">
+                                <a href="{{url('Workshop/Wednesday')}}" class="nav-link ">
                                     <span class="title">Wednesday</span>
                                 </a>
                             </li>
                             <li class="list nav-item">
-                                <a href="{{url('OnlineRecruitment/Thursday')}}" class="nav-link ">
+                                <a href="{{url('Workshop/Thursday')}}" class="nav-link ">
                                     <span class="title">Thursday</span>
                                 </a>
                             </li>

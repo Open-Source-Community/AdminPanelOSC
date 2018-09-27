@@ -126,6 +126,8 @@ class RecruitmentController extends Controller
                 return redirect('OnlineRecruitment');
             } else
                 return redirect('refused');
+        else
+            return redirect('refused');
     }
 
     public function Saturday($day, $time, $time1, $time2, $time3, $time4, $time5)
@@ -161,7 +163,8 @@ class RecruitmentController extends Controller
                 return false;
             else
                 return true;
-        }
+        } else
+            return false;
     }
 
     public function Sunday($day, $time, $time1, $time2, $time3, $time4, $time5)
@@ -197,7 +200,8 @@ class RecruitmentController extends Controller
                 return false;
             else
                 return true;
-        }
+        } else
+            return false;
     }
 
     public function Monday($day, $time, $time1, $time2, $time3, $time4, $time5)
@@ -233,7 +237,8 @@ class RecruitmentController extends Controller
                 return false;
             else
                 return true;
-        }
+        } else
+            return false;
     }
 
     public function Tuesday($day, $time, $time1, $time2, $time3, $time4, $time5)
@@ -269,7 +274,8 @@ class RecruitmentController extends Controller
                 return false;
             else
                 return true;
-        }
+        } else
+            return false;
     }
 
     public function Wednesday($day, $time, $time1, $time2, $time3, $time4, $time5)
@@ -305,7 +311,8 @@ class RecruitmentController extends Controller
                 return false;
             else
                 return true;
-        }
+        } else
+            return false;
     }
 
     public function Thursday($day, $time, $time1, $time2, $time3, $time4, $time5)
@@ -341,7 +348,8 @@ class RecruitmentController extends Controller
                 return false;
             else
                 return true;
-        }
+        } else
+            return false;
     }
 
     /**

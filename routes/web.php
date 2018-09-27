@@ -17,11 +17,20 @@ Route::post('/addParticiple', 'WorkshopController@store');
 Route::get('/CreateNewParticiple', 'WorkshopController@create');
 Route::get('/Participles/{id}/delete', 'WorkshopController@delete');
 
-Route::get('/OnlineRecruitment/Saturday', 'RecruitmentController@Saturday_Day');
-Route::get('/OnlineRecruitment/Sunday', 'RecruitmentController@Sunday_Day');
-Route::get('/OnlineRecruitment/Monday', 'RecruitmentController@Monday_Day');
-Route::get('/OnlineRecruitment/Tuesday', 'RecruitmentController@Tuesday_Day');
-Route::get('/OnlineRecruitment/Wednesday', 'RecruitmentController@Wednesday_Day');
-Route::get('/OnlineRecruitment/Thursday', 'RecruitmentController@Thursday_Day');
-Route::Resource('/OnlineRecruitment', 'RecruitmentController');
-Route::get('/refused', 'RecruitmentController@refused');
+//Route::get('/OnlineRecruitment/Saturday', 'RecruitmentController@Saturday_Day');
+//Route::get('/OnlineRecruitment/Sunday', 'RecruitmentController@Sunday_Day');
+//Route::get('/OnlineRecruitment/Monday', 'RecruitmentController@Monday_Day');
+//Route::get('/OnlineRecruitment/Tuesday', 'RecruitmentController@Tuesday_Day');
+//Route::get('/OnlineRecruitment/Wednesday', 'RecruitmentController@Wednesday_Day');
+//Route::get('/OnlineRecruitment/Thursday', 'RecruitmentController@Thursday_Day');
+//Route::Resource('/OnlineRecruitment', 'RecruitmentController');
+//Route::get('/refused', 'RecruitmentController@refused');
+
+Route::get('/Workshop/Saturday', 'WorkshopsController@Saturday_Day');
+Route::get('/Workshop/Sunday', 'WorkshopsController@Sunday_Day');
+Route::get('/Workshop/Monday', 'WorkshopsController@Monday_Day');
+Route::get('/Workshop/Tuesday', 'WorkshopsController@Tuesday_Day');
+Route::get('/Workshop/Wednesday', 'WorkshopsController@Wednesday_Day');
+Route::get('/Workshop/Thursday', 'WorkshopsController@Thursday_Day');
+Route::Resource('/Workshop', 'WorkshopsController');
+Route::get('/refused', 'Workshop@refused');
