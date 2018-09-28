@@ -33,4 +33,4 @@ Route::get('/Workshop/Tuesday', 'WorkshopsController@Tuesday_Day');
 Route::get('/Workshop/Wednesday', 'WorkshopsController@Wednesday_Day');
 Route::get('/Workshop/Thursday', 'WorkshopsController@Thursday_Day');
 Route::Resource('/Workshop', 'WorkshopsController');
-Route::get('/refused', 'Workshop@refused');
+Route::get('/refused', 'WorkshopsController@refused');
