@@ -165,23 +165,13 @@
                     <li class="nav-item">
                         <a href="javascript:" class="nav-link nav-toggle">
                             <i class="icon-diamond"></i>
-                            <span class="title">Workshop</span>
+                            <span class="title">Workshop'19</span>
                             <span class="arrow"></span>
                         </a>
                         <ul class="sub-menu">
                             <li class="list nav-item">
                                 <a href="{{url('Workshop')}}" class="nav-link ">
                                     <span class="title">All Days</span>
-                                </a>
-                            </li>
-                            <li class="list nav-item">
-                                <a href="{{url('Workshop/Saturday')}}" class="nav-link ">
-                                    <span class="title">Saturday</span>
-                                </a>
-                            </li>
-                            <li class="list nav-item">
-                                <a href="{{url('Workshop/Sunday')}}" class="nav-link ">
-                                    <span class="title">Sunday</span>
                                 </a>
                             </li>
                             <li class="list nav-item">
@@ -202,6 +192,11 @@
                             <li class="list nav-item">
                                 <a href="{{url('Workshop/Thursday')}}" class="nav-link ">
                                     <span class="title">Thursday</span>
+                                </a>
+                            </li>
+                            <li class="list nav-item">
+                                <a href="{{url('Workshop/Saturday')}}" class="nav-link ">
+                                    <span class="title">Saturday</span>
                                 </a>
                             </li>
                         </ul>

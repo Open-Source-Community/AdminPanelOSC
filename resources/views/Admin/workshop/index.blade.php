@@ -9,9 +9,17 @@
                 <div class="portlet-title">
                     <div class="caption">
                         <i class="icon-bubble font-dark"></i>
-                        <span class="caption-subject font-dark bold uppercase">Workshops</span>
+                        <span class="caption-subject font-dark bold uppercase">Workshop'19</span>
+                    </div>
+                    <div class="actions">
+                        <div class="btn-group">
+                            <a class="btn dark btn-outline btn-circle btn-sm" href="{{url('Workshop/create')}}">
+                                Add new
+                            </a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="portlet-body">
                     <div class="table-scrollable">
                         <table class="table table-bordered table-hover">
@@ -43,17 +51,15 @@
                                     <td>{{$item->select_workshop}}</td>
                                     @if($flag)
                                         @if($item->day == 1)
-                                            <td>Saturday</td>
-                                        @elseif($item->day == 2)
-                                            <td>Sunday</td>
-                                        @elseif($item->day == 3)
                                             <td>Monday</td>
-                                        @elseif($item->day == 4)
+                                        @elseif($item->day == 2)
                                             <td>Tuesday</td>
-                                        @elseif($item->day == 5)
+                                        @elseif($item->day == 3)
                                             <td>Wednesday</td>
-                                        @elseif($item->day == 6)
+                                        @elseif($item->day == 4)
                                             <td>Thursday</td>
+                                        @elseif($item->day == 5)
+                                            <td>Saturday</td>
                                         @endif
                                     @endif
 
@@ -69,6 +75,8 @@
                                         <td>from 02:00 to 03:00</td>
                                     @elseif($item->time == 6)
                                         <td>from 03:00 to 04:00</td>
+                                    @elseif($item->time == 7)
+                                        <td>from 04:00 to 05:00</td>
                                     @endif
 
                                     <td>

@@ -9,7 +9,14 @@
                 <div class="portlet-title">
                     <div class="caption">
                         <i class="icon-bubble font-dark"></i>
-                        <span class="caption-subject font-dark bold uppercase">Online Recruitment</span>
+                        <span class="caption-subject font-dark bold uppercase">Workshop'19</span>
+                    </div>
+                    <div class="actions">
+                        <div class="btn-group">
+                            <a class="btn dark btn-outline btn-circle btn-sm" href="{{url('Workshop')}}">
+                                Back
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="portlet-body">
@@ -17,7 +24,7 @@
                         <div class="portlet-title">
                             <div class="caption font-red-sunglo">
                                 <i class="icon-user font-red-sunglo"></i>
-                                <span class="caption-subject bold uppercase"> تعديل </span>
+                                <span class="caption-subject bold uppercase"> Edit </span>
                             </div>
 
                         </div>
@@ -30,32 +37,28 @@
 
                                 <div class="form-body">
                                     <div class="form-group form-md-line-input">
-                                        <input value="{{$item->name}}" required type="text" name="name"
-                                               class="form-control input-lg"
-                                               placeholder="Full Name">
+                                        <input value="{{$item->name}}" required name="name"
+                                               class="form-control input-lg">
                                         <label for="form_control_1 input-lg">Full Name</label>
                                         <span class="help-block">تتم الكتابة...</span>
                                     </div>
 
                                     <div class="form-group form-md-line-input">
-                                        <input value="{{$item->email}}" required type="text" name="email"
-                                               class="form-control input-lg"
-                                               placeholder="Email">
+                                        <input value="{{$item->email}}" required name="email"
+                                               class="form-control input-lg">
                                         <label for="form_control_1 input-lg">Email</label>
                                         <span class="help-block">تتم الكتابة...</span>
                                     </div>
 
                                     <div class="form-group form-md-line-input">
-                                        <input value="{{$item->mobile}}" required type="text" name="mobile"
-                                               class="form-control input-lg"
-                                               placeholder="Mobile Number">
+                                        <input value="{{$item->mobile}}" required name="mobile"
+                                               class="form-control input-lg">
                                         <label for="form_control_1 input-lg">Mobile Number</label>
                                     </div>
 
                                     <div class="form-group form-md-line-input">
-                                        <input value="{{$item->faculty}}" required type="text" name="faculty"
-                                               class="form-control input-lg"
-                                               placeholder="Faculty Name">
+                                        <input value="{{$item->faculty}}" required name="faculty"
+                                               class="form-control input-lg">
                                         <label for="form_control_1 input-lg">Faculty Name</label>
                                     </div>
 
@@ -78,7 +81,7 @@
                                     </div>
 
                                     <div class="form-group form-md-line-input">
-                                        <select name="select_workshop" class="form-control">
+                                        <select required name="select_workshop" class="form-control">
                                             <option @if($item->select_workshop=="Linux") selected @endif
                                             value="Linux">Linux
                                             </option>
@@ -95,22 +98,19 @@
                                     <div class="form-group form-md-line-input">
                                         <select required name="day" class="form-control">
                                             <option @if($item->day==1) selected @endif
-                                            value="1">Saturday
+                                            value="1">Monday
                                             </option>
                                             <option @if($item->day==2) selected @endif
-                                            value="2">Sunday
+                                            value="2">Tuesday
                                             </option>
                                             <option @if($item->day==3) selected @endif
-                                            value="3">Monday
+                                            value="3">Wednesday
                                             </option>
                                             <option @if($item->day==4) selected @endif
-                                            value="4">Tuesday
+                                            value="4">Thursday
                                             </option>
                                             <option @if($item->day==5) selected @endif
-                                            value="5">Wednesday
-                                            </option>
-                                            <option @if($item->day==6) selected @endif
-                                            value="6">Thursday
+                                            value="5">Saturday
                                             </option>
                                         </select>
                                         <label for="day">Day</label>
@@ -136,11 +136,14 @@
                                             <option @if($item->time==6) selected @endif
                                             value="6">from 03:00 to 04:00
                                             </option>
+                                            <option @if($item->time==7) selected @endif
+                                            value="7">from 04:00 to 05:00
+                                            </option>
                                         </select>
                                         <label for="time">Time</label>
                                     </div>
 
-                                    <button type="submit" class="btn blue">تعديل</button>
+                                    <button class="btn blue">Submit</button>
                                 </div>
                             </form>
                         </div>
