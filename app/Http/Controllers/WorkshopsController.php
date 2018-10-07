@@ -109,12 +109,12 @@ class WorkshopsController extends Controller
             else
                 return true;
         } elseif ($time == $time3) {
-            if (count($check3) == 0)
+            if (count($check3) == 3)
                 return false;
             else
                 return true;
         } elseif ($time == $time4) {
-            if (count($check4) == 0)
+            if (count($check4) == 3)
                 return false;
             else
                 return true;
@@ -300,17 +300,17 @@ class WorkshopsController extends Controller
             else
                 return true;
         } elseif ($time == $time2) {
-            if (count($check2) == 3)
+            if (count($check2) == 4)
                 return false;
             else
                 return true;
         } elseif ($time == $time3) {
-            if (count($check3) == 3)
+            if (count($check3) == 5)
                 return false;
             else
                 return true;
         } elseif ($time == $time4) {
-            if (count($check4) == 3)
+            if (count($check4) == 4)
                 return false;
             else
                 return true;
@@ -325,7 +325,7 @@ class WorkshopsController extends Controller
             else
                 return true;
         } else if ($time == $time7) {
-            if (count($check7) == 3)
+            if (count($check7) == 4)
                 return false;
             else
                 return true;
