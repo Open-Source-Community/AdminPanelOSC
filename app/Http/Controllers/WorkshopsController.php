@@ -153,32 +153,32 @@ class WorkshopsController extends Controller
             else
                 return true;
         } elseif ($time == $time2) {
-            if (count($check2) == 2)
+            if (count($check2) == 3)
                 return false;
             else
                 return true;
         } elseif ($time == $time3) {
-            if (count($check3) == 5)
+            if (count($check3) == 8)
                 return false;
             else
                 return true;
         } elseif ($time == $time4) {
-            if (count($check4) == 6)
+            if (count($check4) == 8)
                 return false;
             else
                 return true;
         } elseif ($time == $time5) {
-            if (count($check5) == 4)
+            if (count($check5) == 8)
                 return false;
             else
                 return true;
         } else if ($time == $time6) {
-            if (count($check6) == 5)
+            if (count($check6) == 9)
                 return false;
             else
                 return true;
         } else if ($time == $time7) {
-            if (count($check7) == 4)
+            if (count($check7) == 9)
                 return false;
             else
                 return true;
