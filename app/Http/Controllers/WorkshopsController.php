@@ -202,12 +202,12 @@ class WorkshopsController extends Controller
             else
                 return true;
         } elseif ($time == $time2) {
-            if (count($check2) == 7)
+            if (count($check2) == 8)
                 return false;
             else
                 return true;
         } elseif ($time == $time3) {
-            if (count($check3) == 6)
+            if (count($check3) == 7)
                 return false;
             else
                 return true;
@@ -266,7 +266,7 @@ class WorkshopsController extends Controller
             else
                 return true;
         } elseif ($time == $time5) {
-            if (count($check5) == 6)
+            if (count($check5) == 7)
                 return false;
             else
                 return true;
@@ -295,12 +295,12 @@ class WorkshopsController extends Controller
         $check7 = Workshop::where('day', $day)->where('time', $time7)->get();
 
         if ($time == $time1) {
-            if (count($check1) == 3)
+            if (count($check1) == 4)
                 return false;
             else
                 return true;
         } elseif ($time == $time2) {
-            if (count($check2) == 4)
+            if (count($check2) == 5)
                 return false;
             else
                 return true;
@@ -310,7 +310,7 @@ class WorkshopsController extends Controller
             else
                 return true;
         } elseif ($time == $time4) {
-            if (count($check4) == 4)
+            if (count($check4) == 5)
                 return false;
             else
                 return true;
@@ -325,7 +325,7 @@ class WorkshopsController extends Controller
             else
                 return true;
         } else if ($time == $time7) {
-            if (count($check7) == 4)
+            if (count($check7) == 7)
                 return false;
             else
                 return true;
