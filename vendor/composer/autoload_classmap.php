@@ -22,6 +22,7 @@ return array(
     'App\\Http\\Controllers\\ImagesController' => $baseDir . '/app/Http/Controllers/ImagesController.php',
     'App\\Http\\Controllers\\RecruitmentController' => $baseDir . '/app/Http/Controllers/RecruitmentController.php',
     'App\\Http\\Controllers\\UsersController' => $baseDir . '/app/Http/Controllers/UsersController.php',
+    'App\\Http\\Controllers\\WorkshopsController' => $baseDir . '/app/Http/Controllers/WorkshopsController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
     'App\\Http\\Middleware\\RedirectIfAuthenticated' => $baseDir . '/app/Http/Middleware/RedirectIfAuthenticated.php',
