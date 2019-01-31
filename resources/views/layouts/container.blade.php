@@ -201,6 +201,11 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="nav-item" style="margin-right: 25px">
+                        <a href="{{url('form/settings')}}" class="nav-link">
+                            <span class="title">Form Settings</span>
+                        </a>
+                    </li>
                 </ul>
 
             </div>

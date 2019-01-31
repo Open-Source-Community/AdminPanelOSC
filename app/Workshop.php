@@ -17,5 +17,9 @@ class Workshop extends Model
         'select_workshop',
         'day',
         'time',
+        'status',
+        'comment',
+        'hr_interviewer',
+        'com_interviewer'
     ];
 }
