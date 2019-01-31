@@ -201,10 +201,24 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item" style="margin-right: 25px">
-                        <a href="{{url('form/settings')}}" class="nav-link">
-                            <span class="title">Form Settings</span>
-                        </a>
+                    <li class="nav-item">
+                            <a href="javascript:" class="nav-link nav-toggle">
+                                <i class="icon-diamond"></i>
+                                <span class="title">Form</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="list nav-item" style="margin-right: 25px">
+                                    <a href="{{url('form/settings')}}" class="nav-link">
+                                        <span class="title">Settings</span>
+                                    </a>
+                                </li>
+                                <li class="list nav-item" style="margin-right: 25px">
+                                    <a href="{{url('form/slots')}}" class="nav-link">
+                                        <span class="title">Slots</span>
+                                    </a>
+                                </li>
+                            </ul>
                     </li>
                 </ul>
 

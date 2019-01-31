@@ -34,3 +34,6 @@ Route::get('/Workshop/Saturday', 'WorkshopsController@Saturday_Day');
 
 Route::Resource('/Workshop', 'WorkshopsController');
 Route::get('/refused', 'WorkshopsController@refused');
+
+Route::get('/form/settings' , 'formController@settings');
+Route::get('/form/slots' , 'formController@slots');
