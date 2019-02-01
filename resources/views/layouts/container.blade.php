@@ -26,6 +26,7 @@
     <link href="{{asset('assets/css/bootstrap-colorpicker-plus.css')}}" rel="stylesheet" type="text/css"/>
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" type="text/css"/>
     <link href="{{asset('assets/img/logo.png')}}" rel="shortcut icon">
+    <link href="http://select2.github.io/select2/select2-3.5.1/select2.css" rel="stylesheet" type="text/css">
 
 </head>
 <!-- END HEAD -->
@@ -208,12 +209,12 @@
                                 <span class="arrow"></span>
                             </a>
                             <ul class="sub-menu">
-                                <li class="list nav-item" style="margin-right: 25px">
+                                <li class="list nav-item">
                                     <a href="{{url('form/settings')}}" class="nav-link">
                                         <span class="title">Settings</span>
                                     </a>
                                 </li>
-                                <li class="list nav-item" style="margin-right: 25px">
+                                <li class="list nav-item">
                                     <a href="{{url('form/slots')}}" class="nav-link">
                                         <span class="title">Slots</span>
                                     </a>
@@ -257,6 +258,7 @@
 <script src="{{asset('assets/js/bootstrap-colorpicker.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/js/bootstrap-colorpicker-plus.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets/js/style.js')}}" type="text/javascript"></script>
+<script src="/js/select2.js" type="text/javascript"></script>
 <script type="text/javascript">
     function hideMe(sel) {
         sel.remove();

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class WorkshopTimes extends Migration
+class Slots extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,11 @@ class WorkshopTimes extends Migration
      */
     public function up()
     {
-        Schema::create('workshop_times', function (Blueprint $table) {
+        Schema::create('slots', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('time');
+            $table->integer('day_id');
+            $table->integer('time_id');
+            $table->integer('slots');
         });
     }
 

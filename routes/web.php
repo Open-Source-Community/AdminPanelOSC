@@ -37,3 +37,5 @@ Route::get('/refused', 'WorkshopsController@refused');
 
 Route::get('/form/settings' , 'formController@settings');
 Route::get('/form/slots' , 'formController@slots');
+Route::post('/form/slots' , 'formController@addSlot');
+Route::get('/form/getSlot' , 'formController@getSlot');
