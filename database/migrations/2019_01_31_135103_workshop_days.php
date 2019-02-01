@@ -13,7 +13,13 @@ class WorkshopDays extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('workshop_days', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('day');
+            $table->date('date');
+            $table->string('times');
+        });
+            
     }
 
     /**
@@ -25,4 +31,5 @@ class WorkshopDays extends Migration
     {
         //
     }
+
 }
