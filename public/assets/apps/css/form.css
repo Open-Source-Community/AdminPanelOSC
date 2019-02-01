@@ -1,0 +1,43 @@
+.portlet-body .choice {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 0 5px;
+}
+
+.portlet-body .choice span {
+    color: rgb(73, 72, 72);
+    float: left;
+    padding: 7px 0px;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* margin-right: 3%; */
+    width: 15%;
+}
+
+.portlet-body .choice select {
+    width: 90% !important;
+    padding: 1.5px 20px !important;
+    margin-right: 25px !important;
+    margin-bottom: 10px !important;
+    border: 1.5px solid #ddd !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    color: rgb(73, 72, 72) !important;
+    /* height: 60px; */
+}
+
+.portlet-body .change {
+    width: 15%;
+}
+
+.portlet-body button {
+    background: none;
+    padding: 5px 20px;
+    color: rgb(73, 72, 72);
+    border: 1.5px solid #ddd;
+    font-size: 18px;
+    text-transform: capitalize;
+}

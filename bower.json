@@ -1,0 +1,21 @@
+{
+  "name": "AdminPanelOSC",
+  "description": "",
+  "main": "",
+  "authors": [
+    "shrouktarek98 <shrouk.talat98@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Open-Source-Community/AdminPanelOSC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "select2": "^4.0.5",
+    "jquery": "^3.3.1"
+  }
+}
