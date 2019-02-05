@@ -36,6 +36,10 @@ Route::Resource('/Workshop', 'WorkshopsController');
 Route::get('/refused', 'WorkshopsController@refused');
 
 Route::get('/form/settings' , 'formController@settings');
+
+Route::post('/form/settings/add' , 'formController@addSetting');
+Route::post('/form/settings' , 'formController@editSetting');
+Route::get('/form/getday' , 'formController@getday');
 Route::get('/form/slots' , 'formController@slots');
 Route::post('/form/slots' , 'formController@addSlot');
 Route::get('/form/getSlot' , 'formController@getSlot');
