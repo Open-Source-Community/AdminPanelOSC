@@ -28,6 +28,11 @@
                                     <th>Day</th>
                                 @endif
                                 <th>Time</th>
+                                <th>Status</th>
+                                <th>Comment</th>
+                                <th>HR Interviewer</th>
+                                <th>First Committee Interviewer</th>
+                                <th>Second Committee Interviewer</th>
                                 <th></th>
                             </tr>
                             </thead>
@@ -68,7 +73,11 @@
                                     @elseif($item->time == 5)
                                         <td>From 04:00 To 05:30</td>
                                     @endif
-
+                                    <td>{{$item->status}}</td>
+                                    <td>{{$item->comment}}</td>
+                                    <td>{{$item->hr_interviewer}}</td>
+                                    <td>{{$item->first_com_interviewer}}</td>
+                                    <td>{{$item->second_com_interviewer}}</td>
                                     <td>
                                         <a href="{{url("OnlineRecruitment/$item->id/edit")}}">
                                             <button class="btn btn-warning label-sm">Edit</button>

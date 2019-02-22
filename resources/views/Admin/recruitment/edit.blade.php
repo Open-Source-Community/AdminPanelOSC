@@ -192,7 +192,43 @@
                                         </select>
                                         <label for="time">Time</label>
                                     </div>
-
+                                    <div class="form-group form-md-line-input">
+                                        <select required name="status" class="form-control">
+                                            <option @if($item->status=="Accepted") selected @endif
+                                            value="Accepted">Accepted
+                                            </option>
+                                            <option @if($item->status=="Wating A") selected @endif
+                                            value="Wating A">Wating A
+                                            </option>
+                                            <option @if($item->status=="Wating B") selected @endif
+                                            value="Wating B">Wating B
+                                            </option>
+                                            <option @if($item->status=="Rejected") selected @endif
+                                            value="Rejected">Rejected
+                                            </option>
+                                        </select>
+                                        <label for="status">Status</label>
+                                    </div>
+                                    <div class="form-group form-md-line-input">
+                                        <input value="{{$item->comment}}" required name="comment"
+                                               class="form-control input-lg">
+                                        <label for="form_control_1 input-lg">Comment</label>
+                                    </div>
+                                    <div class="form-group form-md-line-input">
+                                        <input value="{{$item->hr_interviewer}}" required name="hr_interviewer"
+                                               class="form-control input-lg">
+                                        <label for="form_control_1 input-lg">HR Interviewer</label>
+                                    </div>
+                                    <div class="form-group form-md-line-input">
+                                        <input value="{{$item->first_com_interviewer}}" required name="first_com_interviewer"
+                                               class="form-control input-lg">
+                                        <label for="form_control_1 input-lg">First Committee Interviewer</label>
+                                    </div>
+                                    <div class="form-group form-md-line-input">
+                                        <input value="{{$item->second_com_interviewer}}" required name="second_com_interviewer"
+                                               class="form-control input-lg">
+                                        <label for="form_control_1 input-lg">Second Committee Interviewer</label>
+                                    </div>
                                     <button type="submit" class="btn blue">تعديل</button>
                                 </div>
                             </form>

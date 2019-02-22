@@ -101,7 +101,30 @@
                                             <option value="7">from 04:00 to 05:00</option>
                                         </select>
                                     </div>
-
+                                    <div class="form-group form-md-line-input">
+                                        <select required name="status" class="form-control">
+                                            <option selected value="">Select Status</option>
+                                            <option value="Accepted">Accepted</option>
+                                            <option value="Wating A">Wating A</option>
+                                            <option value="Wating B">Wating B</option>
+                                            <option value="Rejected">Rejected</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group form-md-line-input">
+                                        <input required name="comment" class="form-control input-lg">
+                                        <span class="help-block">تتم الكتابة...</span>
+                                        <label for="Comment">Comment</label>
+                                    </div>
+                                    <div class="form-group form-md-line-input">
+                                        <input required name="hr_interviewer" class="form-control input-lg">
+                                        <span class="help-block">تتم الكتابة...</span>
+                                        <label for="HR Interviewer">HR Interviewer</label>
+                                    </div>
+                                    <div class="form-group form-md-line-input">
+                                        <input required name="com_interviewer" class="form-control input-lg">
+                                        <span class="help-block">تتم الكتابة...</span>
+                                        <label for="Commity Interviewer">Commity Interviewer</label>
+                                    </div>
                                     <button class="btn blue">Submit</button>
                                 </div>
                             </form>

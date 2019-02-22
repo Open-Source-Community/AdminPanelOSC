@@ -36,6 +36,10 @@
                                     <th>Day</th>
                                 @endif
                                 <th>Time</th>
+                                <th>Status</th>
+                                <th>Comment</th>
+                                <th>HR-Name</th>
+                                <th>HR-Commity-Name</th>
                                 <th></th>
                             </tr>
                             </thead>
@@ -78,7 +82,10 @@
                                     @elseif($item->time == 7)
                                         <td>from 04:00 to 05:00</td>
                                     @endif
-
+                                    <td>{{$item->status}}</td>
+                                    <td>{{$item->comment}}</td>
+                                    <td>{{$item->hr_interviewer}}</td>
+                                    <td>{{$item->com_interviewer}}</td>
                                     <td>
                                         <a href="{{url("Workshop/$item->id/edit")}}">
                                             <button class="btn btn-warning label-sm">Edit</button>

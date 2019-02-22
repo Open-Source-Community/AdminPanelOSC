@@ -23,6 +23,11 @@ class CreateRecruitsTable extends Migration
             $table->string('second_committee');
             $table->integer('day');
             $table->integer('time');
+            $table->string('status');
+            $table->string('comment');
+            $table->string('hr_interviewer');
+            $table->string('first_com_interviewer');
+            $table->string('second_com_interviewer');
         });
     }
 

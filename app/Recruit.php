@@ -17,5 +17,10 @@ class Recruit extends Model
         'second_committee',
         'day',
         'time',
+        'status',
+        'comment',
+        'hr_interviewer',
+        'first_com_interviewer',
+        'second_com_interviewer'
     ];
 }

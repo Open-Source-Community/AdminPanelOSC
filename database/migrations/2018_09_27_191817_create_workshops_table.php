@@ -23,7 +23,7 @@ class CreateWorkshopsTable extends Migration
             $table->string('select_workshop');
             $table->integer('day');
             $table->integer('time');
-            $table->integer('status');
+            $table->string('status');
             $table->string('comment');
             $table->string('hr_interviewer');
             $table->string('com_interviewer');
